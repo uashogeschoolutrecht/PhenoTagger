@@ -5,7 +5,7 @@ Created on Thu Aug 13 09:20:38 2020
 @author: luol2
 """
 
-
+import nltk
 import argparse
 from nn_model import bioTag_CNN,bioTag_BERT
 from dic_ner import dic_ont

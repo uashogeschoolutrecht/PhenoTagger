@@ -1,10 +1,12 @@
 # PhenoTagger
 ***
-This repo contains the source code and dataset for the PhenoTagger.
+This repo contains the source code and dataset for the PhenoTagger, retrained for the mammalian phenotype ontology.
 
-PhenoTagger is a hybrid method that combines dictionary and deep learning-based methods to recognize Human Phenotype Ontology (HPO) concepts in unstructured biomedical text. It is an ontology-driven method without requiring any manually labeled training data, as that is expensive and annotating a large-scale training dataset covering all classes of HPO concepts is highly challenging and unrealistic. Please refer to our paper for more details:
+PhenoTagger is a hybrid method that combines dictionary and deep learning-based methods to recognize ontology concepts in unstructured biomedical text. It is an ontology-driven method without requiring any manually labeled training data, as that is expensive and annotating a large-scale training dataset covering all classes of ontology concepts is highly challenging and unrealistic. Please refer to the original paper for more details:
 
 - [Ling Luo, Shankai Yan, Po-Ting Lai, Daniel Veltri, Andrew Oler, Sandhya Xirasagar, Rajarshi Ghosh, Morgan Similuk, Peter N Robinson, Zhiyong Lu. PhenoTagger: A Hybrid Method for Phenotype Concept Recognition using Human Phenotype Ontology. Bioinformatics, Volume 37, Issue 13, 1 July 2021, Pages 1884–1890.](https://doi.org/10.1093/bioinformatics/btab019)
+
+The retraining has taken place by a collaboration between [Vivaltes B.V.](https://www.vivaltes.com/) (Dr. Eefje S. Poppelaars) and the University of Applied Sciences Utrecht ([Dr. Marc Teunis](https://www.internationalhu.com/research/researchers/marc-teunis) and Marie Corradi).
 
 ## Content
 - [Dependency package](#package)
@@ -32,10 +34,23 @@ or TF1:
 - [nltk 3.5](www.nltk.org)
 - [keras-bert 0.84.0](https://github.com/CyberZHG/keras-bert)
 
-To install all dependencies automatically using the command:
+To install all dependencies automatically, use the bash commands:
 
 ```
-$ pip install -r requirements.txt
+python -m pip install -r requirements.txt
+python src/install.py
+
+wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PhenoTagger/models.zip
+unzip models.zip
+rm models.zip
+
+wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PhenoTagger/mutation_disease.zip
+mv -i mutation_disease.zip data/mutation_disease.zip
+unzip -d data/ data/mutation_disease.zip
+rm data/mutation_disease.zip
+
+unzip -d data/ data/corpus.zip
+mkdir -p data/distant_train_data
 ```
 
 ## Data and model preparation
@@ -61,7 +76,7 @@ The file format can be in BioC(xml) or PubTator(tab-delimited text file) (click 
 Example:
 
 ```
-$ python PhenoTagger_tagging.py -i ../example/input/ -o ../example/output/
+python PhenoTagger_tagging.py -i ../tagging_data/input/ -o ../tagging_data/output/
 ```
 
 
@@ -71,7 +86,7 @@ We also provide some optional parameters for the different requirements of users
 para_set={
 'model_type':'biobert',   # two deep learning models are provided. cnn or biobert
 'onlyLongest':False,  # False: return overlapping concepts; True: only return the longgest concepts in the overlapping concepts
-'abbrRecog':False,    # False: don't identify abbreviation; True: identify abbreviations
+'abbrRecog':True,    # False: don't identify abbreviation; True: identify abbreviations
 'ML_Threshold':0.95,  # the Threshold of deep learning model
   }
 ```
@@ -91,7 +106,8 @@ The file requires 3 parameters:
 Example:
 
 ```
-$ python Build_dict.py -i ../ontology/hp.obo -o ../dict/ -r HP:0000118
+cd src
+python Build_dict.py -i ../ontology/mp.obo -o ../dict/ -r MP:0000001
 ```
 
 After the program is finished, 5 files will be generated in the output folder.
@@ -114,7 +130,8 @@ The file requires 4 parameters:
 Example:
 
 ```
-$ python Build_distant_corpus.py -d ../dict/ -f ../data/mutation_disease.txt -n 10000 -o ../data/distant_train_data/
+cd src
+python Build_distant_corpus.py -d ../dict/ -f ../data/mutation_disease.txt -n 10000 -o ../data/distant_train_data/
 ```
 
 After the program is finished, 3 files will be generated in the outpath:
@@ -135,7 +152,8 @@ The file requires 4 parameters:
 Example:
 
 ```
-$ python PhenoTagger_training.py -t ../data/distant_train_data/distant_train.conll -d ../data/corpus/GSC/GSCplus_dev_gold.tsv -m biobert -o ../models/
+cd src
+python PhenoTagger_training.py -t ../data/distant_train_data/distant_train.conll -d ../data/MP_annotations/ontology_training.tsv -m biobert -o ../models/
 ```
 
 After the program is finished, 2 files will be generated in the output folder:

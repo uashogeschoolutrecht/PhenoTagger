@@ -1,0 +1,1313 @@
+1	3					
+1	Hypersensitivity to touch was also reported on two separate occasions for a single high dose male.					
+1	0	25	Hypersensitivity to touch	MP:001968		
+						
+3	14					
+3	- prematurely deceased female rats (pre-mortal symptoms): pilo-erection and/or reduced motility were noted in all or several females.					
+3	2	22	prematurely deceased	MP:0002083		
+3	58	71	pilo-erection	MP:0001492		
+3	79	95	reduced motility	MP:0003491		
+						
+8	20					
+8	The body weight gain and the body weight at autopsy were similarly only slightly reduced compared to the control group.					
+8	4	20	body weight gain	MP:0001260		
+						
+9	21					
+9	Overall, the reduced body weights at the 1000 mg/kg bw/day dose are considered as test item-related.					
+9	13	33	reduced body weights	MP:0001262		
+						
+11	24					
+11	The platetes were statistically significant decreased (32%) in the males.					
+11	4	53	platetes were statistically significant decreased	MP:0008935		
+						
+12	27					
+12	The slightly reduced body weight of the treated male animals had recovered to a level comparable to the control group at the end of the recovery period.					
+12	13	32	reduced body weight	MP:0001262		
+						
+13	29					
+13	The slightly increased values of red blood cell-related parameters (haemoglobin content, number of erythrocytes, haematocrit value) and the slightly decreased number of platelets in the previously dosed male and female animals had returned to values comparable to the control group at the end of the recovery period   Overall, no further test-item related changes were observed.					
+13	68	87	haemoglobin content	MP:0005564		
+13	89	111	number of erythrocytes	MP:0011178		
+13	113	124	haematocrit	MP:0002608		
+13	149	178	decreased number of platelets	MP:0008935		
+						
+14	31					
+14	- 1000 mg/kg bw/day: two female animals revealed an exophthalmus from test day 79 onwards.					
+14	52	64	exophthalmus	MP:0002750		
+						
+17	36					
+17	The consistency of all animals' faeces was normal throughout the treatment period. - no deaths were noted at any dose level.  - all main study animals survived until their scheduled terminal sacrifice.					
+17	88	94	deaths	MP:0002083		
+						
+20	41					
+20	Lastly, another female 1000 mg/kg bw/day dose animal revealed areas with thin fur (size approximately 10 mm × 30 mm) on both forelimbs in test weeks 10 to 13.					
+20	74	81	thin fur	MP:0000416		
+						
+22	44					
+22	Furthermore, the exophthalmus of the female recovery animal previously treated, that is considered not test item-related, was still present until the end of the recovery period.					
+22	17	29	exophthalmus	MP:0002750		
+						
+24	47					
+24	The consistency of all animals' faeces was normal throughout the recovery period. - no deaths were noted during the recovery period.					
+24	87	93	deaths	MP:0002083		
+						
+26	50					
+26	BODY WEIGHT AND WEIGHT GAIN 1) Treatment period - 100 or 300 mg/kg bw/day: no test item-related changes were noted for the male and female animals.					
+26	16	27	WEIGHT GAIN	MP:0001260		
+						
+27	52					
+27	The body weight gain was reduced by up to 17 percentage points in comparison to the control.					
+27	4	20	body weight gain	MP:0001260		
+						
+30	55					
+30	The body weight gain and the body weight at autopsy were similarly only slightly reduced compared to the control group.					
+30	4	20	body weight gain	MP:0010182		
+30	25	36	body weight	MP:0001262		
+						
+31	56					
+31	- reduced body weights at the 1000 mg/kg bw/day dose are considered as test item-related.					
+31	2	22	reduced body weights	MP:0001262		
+						
+33	58					
+33	- animals previously treated with the 1000 mg/kg bw/day dose revealed a higher body weight gain than the control group during the recovery period.					
+33	72	95	higher body weight gain	MP:0005455		
+						
+35	62					
+35	This effect is considered to be due to the reduced body weight of these male animals.					
+35	43	62	reduced body weight	MP:0001262		
+						
+39	71					
+39	"- statistically significant differences in haematological parameters compared to the control animals on test day 91 (end of treatment) or test day 119 (end of recovery) that are not considered to be test item-related are as follows: Treatment period (1000 mg/kg bw/day): decreased absolute eosinophilic granulocytes (males; p ≤ 0.05) decreased absolute large unclassified cells (males; p ≤ 0.05) increased mean corpuscular haemoglobin (females; p ≤ 0.05)  Recovery period (1000 mg/kg bw/day): decreased reticulocytes (males; p ≤ 0.01) decreased absolute large unclassified cells (males; p ≤ 0.05)  Please also refer for results about haematology to ""Attached background material"" below."					
+39	396	434	increased mean corpuscular haemoglobin	MP:0005561		
+						
+40	75					
+40	"- statistically significant changes in biochemical parameters in comparison to the control group listed as follows are considered to be coincidental and not related to the test item:  Treatment period: decreased total cholesterol (1000 mg/kg bw/day; males; p ≤ 0.01) decreased urea (in blood)(100, 300, and 1000 mg/kg bw/day; males; p ≤ 0.05 or p ≤ 0.01) decreased calcium (1000 mg/kg bw/day; males; p ≤ 0.05) increased chloride (300 mg/kg bw/day; males; p ≤ 0.05) increased chloride (300 and 1000 mg/kg bw/day; females; p ≤ 0.01) increased sodium (1000 mg/kg bw/day; females; p ≤ 0.05)  URINALYSIS Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: daily treatment did not lead to any test item-related changes of the urinary parameters of the male and female animals compared to the control group at the end of the treatment period and at the end of the recovery period."					
+40	202	229	decreased total cholesterol	MP:0003983		
+40	267	281	decreased urea	MP:0005566		
+40	355	372	decreased calcium	MP:0000195		
+40	410	428	increased chloride	MP:0003019		
+40	465	483	increased chloride	MP:0003019		
+40	531	547	increased sodium	MP:0005633		
+						
+41	76					
+41	"- statistically significant differences in the urinary parameters compared to the control animals on test day 89 or 117 that are not considered to be test item related are as follows: Treatment period: increased pH value (1000 mg/kg bw/day; females; p ≤ 0.05) increased relative urine volume (1000 mg/kg bw/day; females; p ≤ 0.05)  Recovery period: decreased specific gravity (1000 mg/kg bw/day; females; p ≤ 0.05)  NEUROBEHAVIOUR Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: no test item-related influence was noted on any of the parameters examined during the functional observation tests, on the fore- and hind limb grip strength, or on the spontaneous motility for any of the male and female animals in test week 13 and in test week 17. - individual male and female animals of the test item-treated and/or control groups revealed a score different from the normal score for the parameters urination, toe pinch, tail pinch, wire maneuver, and/or positive geotropism in test week 13 and/or in test week 17."					
+41	202	220	increased pH value	MP:0009349		
+41	260	291	increased relative urine volume	MP:0011431		
+						
+42	78					
+42	All occurrences of scores different from the normal score for the examined parameters are considered to be within the normal range of biological variation. - the following statistically significant changes in comparison to the control animals observed for numerical neurological parameters in test week 13 or 17 are considered to be coincidental effects and not to be related to the treatment with the test item: decreased body temperature, decreased hind leg splay, increased/decreased hind limb (grip strength), and increased spontaneous motility  ORGAN WEIGHTS Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: no test item-related influence was noted on the relative or absolute organ weights of the male and female animals at the end of treatment (test day 91) and at the end of the recovery period (test day 119).					
+42	413	439	decreased body temperature	MP:0005534		
+						
+43	79					
+43	"- statistically significant differences in relative and absolute organ weights compared to the control animals on test day 91 or test day 119 that are not considered to be test item-related are as follows: Treatment period: decreased adrenal gland weight (right; absolute)(300 mg/kg bw/day; females; p ≤ 0.05) increased brain weight (relative)(1000 mg/kg bw/day; males; p ≤ 0.01) decreased liver weight (absolute)(1000 mg/kg bw/day; males; p ≤ 0.05) decreased ovary weight (right, relative)(300 mg/kg bw/day; females; p ≤ 0.05) decreased ovary weight (right, absolute)(300 mg/kg bw/day; females; p ≤ 0.05)  Recovery period: - 1000 mg/kg bw/day: increased relative weight of prostate and seminal vesicles with coagulating glands (p ≤ 0.05)  GROSS PATHOLOGY Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: no test item-related changes in the organs and tissues of the animals were found after terminal sacrifice at the end of the treatment period (test day 91)."					
+43	224	254	decreased adrenal gland weight	MP:0013308		
+43	310	332	increased brain weight	MP:0002176		
+43	380	402	decreased liver weight	MP:0003402		
+43	450	472	decreased ovary weight	MP:0004856		
+43	528	550	decreased ovary weight	MP:0004856		
+43	645	727	increased relative weight of prostate and seminal vesicles with coagulating glands	MP:0004961		
+						
+44	80					
+44	No abnormal findings were noted at recovery sacrifice at the end of the 4-week recovery period (test day 119).  - a few minor macroscopic findings were noted which are considered to be not test item-related but to be of spontaneous nature in various organs of individual test item-treated and control animals, which were as follows:  liver (medial lobe): dark-brown focus or a yellow focus in the  thymus (left side): dark-red discoloured side cardiac stomach: haemorrhagic focus intestines: green-brown content testes/epididymides: reduced in size and revealed a soft consistency ovary (right): cystic and enlarged, filled with a dark-red liquid uterus: dilated, filled with a clear liquid adrenal gland (right): enlarged  axilla (left): subcutaneous, solid and red-yellow coloured tissue enlargement   HISTOPATHOLOGY: NON-NEOPLASTIC Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - no treatment-related microscopic changes were noted in the male and female animals of the control group and the 1000 mg/kg bw/day dose group. - all microscopic changes seen in any organ of any animal are considered to be coincidental, or to be within the normal range of background alterations, which may be seen in untreated rats of this age and strain.					
+44	512	548	testes/epididymides: reduced in size	MP:0001147		
+44	581	615	ovary (right): cystic and enlarged	MP:0002016		
+44	647	662	uterus: dilated	MP:0001123		
+44	691	722	adrenal gland (right): enlarged	MP:0000642		
+						
+45	85					
+45	The LOAEL was considered to be 1000 mg/kg bw/day for both female and male mice, based on observation of clinical signs in both sexes and decreased bodyweights in males.					
+45	137	157	decreased bodyweights	MP:0001262		
+						
+46	86					
+46	MORTALITY:  - 1/10 male and 2/10 females died at 2000 mg/kg bw/day - 1/10 female died at 500 mg/kg bw/day - Several animals in other groups died as a result of gavage error.					
+46	41	45	died	MP:0002083		
+46	81	85	died	MP:0002083		
+46	140	144	died	MP:0002083		
+						
+47	87					
+47	CLINICAL SIGNS:  - Rough hair coats and decreased activity were observed at 1000 and 2000 mg/kg bw/day.					
+47	19	35	Rough hair coats	MP:0000367		
+47	40	58	decreased activity	MP:0005156		
+						
+49	91					
+49	Under the conditons of this subchronic dermal toxicity study in rats, a No Observed Adverse Effect Level (NOAEL) of 250 mg/kg bw/day was established for linalool based on reduced bw gain at the next higher dose.					
+49	171	186	reduced bw gain	MP:0010182		
+						
+50	93					
+50	CLINICAL SIGNS AND MORTALITY 9 females of the highest dosing group died during the study.					
+50	67	71	died	MP:0002083		
+						
+51	94					
+51	Other deaths were not considered treatment related (males: 1 control, 2 high-dose animals / females: 2 low-dose, 1 mid-dose animals) 					 Lethargy was noted in females of the high-dose group during week 3.
+51	139	147	Lethargy	MP:0005202		
+						
+54	98					
+54	DERMAL IRRITATION Slight erythema was observed in all linalool treated groups.					
+54	25	33	erythema	MP:0001190		
+						
+55	103					
+55	BODY WEIGHT AND WEIGHT GAIN Mean body weights in the high-dose group males were lower than control at weeks 2 through 13.					
+55	16	27	WEIGHT GAIN	MP:0001260		
+55	28	85	Mean body weights in the high-dose group males were lower	MP:0001262		
+						
+56	104					
+56	Mean body weight in the mid-dose group females were lower than control at week 4 and 8 through 13.					
+56	0	57	Mean body weight in the mid-dose group females were lower	MP:0001262		
+						
+57	105					
+57	Mean body weight in the high-dose group females were less than control at weeks 2&3 but, after some rats died, the remaining rats maintained weights comparable to control.					
+57	0	57	Mean body weight in the high-dose group females were less	MP:0001262		
+57	105	109	died	MP:0002083		
+						
+58	106					
+58	FOOD CONSUMPTION Food consumption was depressed in high-dose males at week 1-3 and 5 and 6.					
+58	17	47	Food consumption was depressed	MP:0011940		
+						
+59	107					
+59	ORGAN WEIGHTS In females, terminal body weight of mid-dose group was decreased and the absolute and relative liver and kidney weights in the high-dose group were increased over control.					
+59	26	78	terminal body weight of mid-dose group was decreased	MP:0001262		
+						
+60	108					
+60	In males, terminal body weight of high dosed males was reduced.					
+60	19	62	body weight of high dosed males was reduced	MP:0001262		
+						
+62	110					
+62	HISTOPATHOLOGY: NON-NEOPLASTIC Animals that died during the experiment were found to have cardiopulmonary disturbances.					
+62	44	48	died	MP:0002083		
+						
+63	111					
+63	In more than 50% of control rats, the skin showed a grade 1 epithelial hyperplasia.					
+63	52	82	grade 1 epithelial hyperplasia	MP:0001214		
+						
+64	112					
+64	Squamous epithelial hyperplasia ranged from grade 2 to 3 in all animals of the high-dose group.					
+64	0	31	Squamous epithelial hyperplasia	MP:0001214		
+						
+65	114					
+65	Based on a temporary reduction in mean body weight gain in males and a first indication of an adverse liver effect at 1000 mg/kg and day.					
+65	23	57	reduction in mean body weight gain	MP:0010182		
+						
+66	116					
+66	Based on decreased platelet count and increased diffuse follicular hypertrophy/hyperplasia in thyroid glands of males at 250 mg/kg bw/d and above, the NOAEL was set at 75 mg/kg bw/d.					
+66	9	33	decreased platelet count	MP:0008935		
+						
+67	118					
+67	The animal showed hypothermia, oblique head posture, respiratory sounds and stiff gait.					
+67	18	29	hypothermia	MP:0005534		
+67	53	71	respiratory sounds	MP:0001950		
+67	76	86	stiff gait	MP:0001406		
+						
+70	123					
+70	HAEMATOLOGY Platelet counts were decreased in males at 250 and 1000 mg/kg bw/d (83 and 85% of control, resp.) and females at 1000 mg/kg bw/d (80% of control).					
+70	12	42	Platelet counts were decreased	MP:0008935		
+						
+71	124					
+71	Mean haemoglobin was statistically decreased in males at 1000 mg/kg bw/d (97% of control) and in females at 250 and 1000 mg/kg bw/d (97 and 92% of control, resp.).					
+71	0	44	Mean haemoglobin was statistically decreased	MP:0002874		
+						
+72	126					
+72	Mean red blood cell count was statistically decreased in females at all dose levels (95-93% of control).					
+72	0	53	Mean red blood cell count was statistically decreased	MP:0002875		
+						
+73	127					
+73	Bilirubin levels were decreased in all males (82-62% of control) and in females at 250 and 1000 mg/kg bw/d (73-55% of control) in a dose-related manner.					
+73	0	31	Bilirubin levels were decreased	MP:0005635		
+						
+74	128					
+74	Mean haematocrit was decreased in females at 250 and 1000 mg/kg bw/d (97 and 93% of control, resp.).					
+74	0	30	Mean haematocrit was decreased	MP:0000208		
+						
+76	131					
+76	CLINICAL CHEMISTRY In both sexes at 1000 mg/kg bw/d ALT was increased (159% of control for males and 158% for females).					
+76	52	69	ALT was increased	MP:0002941		
+						
+77	132					
+77	Albumin was increased in females at 1000 mg/kg bw/d (109% of control).					
+77	0	21	Albumin was increased	MP:0002965		
+						
+80	136					
+80	URINALYSIS A higher incidence of phosphate crystals occurred in the urine of both sexes at 1000 mg/kg bw/d.					
+80	13	73	higher incidence of phosphate crystals occurred in the urine	MP:0002901		
+						
+81	137					
+81	In males at 250 and 1000 mg/kg bw/d specific gravity was increased (dose-related) and, although not significantly, urine volume was lower compared to controls.					
+81	115	137	urine volume was lower	MP:0011432		
+						
+82	138					
+82	This is considered to reflect a lower water intake and not toxicologically relevant.					
+82	32	50	lower water intake	MP:0011942		
+						
+85	146					
+85	ORGAN WEIGHTS The increased liver weights in males (relative: 123% of control) and females (absolute and relative: 132 and 126% of control, resp.) at 1000 mg/kg bw/d as well as the increased absolute and relative weights of thyroid glands (124 and 119% of control, resp.) in females at 1000 mg/kg bw/d were considered treatment-related.					
+85	18	41	increased liver weights	MP:0002981		
+85	181	238	increased absolute and relative weights of thyroid glands	MP:0020169		
+						
+86	147					
+86	"The increased relative liver weight in males at 250 mg/kg bw/d was only marginal and had no histopathological correlate; therefore, was not considered treatment-related."					
+86	4	35	increased relative liver weight	MP:0002981		
+						
+87	148					
+87	The terminal body weight of males at 1000 mg/kg bw/d was decreased (93% of control) resulting in a decrease of the absolute weight of epididymides (94% of control) and increased relative heart and kidney weights (both 113% of control).					
+87	11	66	body weight of males at 1000 mg/kg bw/d was decreased	MP:0001262		
+87	99	146	decrease of the absolute weight of epididymides	MP:0004929		
+						
+88	149					
+88	The increased heart weight (absolute/relative: 111%/107% of control) were not considered to be treatment-related, in the absence of a dose-response relationship and a histopathological correlate.					
+88	4	26	increased heart weight	MP:0002833		
+						
+89	150					
+89	The absolute kidney weight was increased in females at 1000 mg/kg bw/d (109% of control), but not considered treatment-related in absence of a dose-response relationship, no increase in relative kidney weight and histopathological correlate.					
+89	4	40	absolute kidney weight was increased	MP:0003917		
+89	174	208	increase in relative kidney weight	MP:0003917		
+						
+90	151					
+90	GROSS PATHOLOGY Three females at 1000 mg/kg bw/d showed an enlarged liver.					
+90	59	73	enlarged liver	MP:0000599		
+						
+91	152					
+91	HISTOPATHOLOGY: NON-NEOPLASTIC Fatty change (cytoplasmic vacuolization) of hepatocytes was observed in 3 males and 9 females (2 with enlarged liver) at 1000 mg/kg bw/d.					
+91	133	147	enlarged liver	MP:0000599		
+						
+93	155					
+93	Dilation of lymph vessels mostly in the villi of the cranial part of the jejunum was seen in all treated animals: 0, 2, 8 and 10 males and 0, 4, 8 and 6 females at 0, 75, 250 and 1000 mg/kg bw/d.					
+93	0	25	Dilation of lymph vessels	MP:0004938		
+						
+94	156					
+94	Lipid-material was shown attached plaque-like to the endothelial wall of some dilated lymph vessels.					
+94	78	99	dilated lymph vessels	MP:0004938		
+						
+98	164					
+98	decreased platelet count and increased diffuse follicular hypertrophy/hyperplasia in thyroid glands of males at 250 mg/kg bw/d and above NOAEL					
+98	0	24	decreased platelet count	MP:0008935		
+						
+100	169					
+100	Clinical findings noted for this male approximately 1 hour following dose administration on the day of euthanasia consisted of yellow material on various body surfaces, clear material around the mouth, unkempt appearance, decreased defecation, and labored respiration.					
+100	222	242	decreased defecation	MP:0012311		
+100	248	267	labored respiration	MP:0001943		
+						
+101	170					
+101	Microscopically, this male was noted with inflammation, edema, and ulceration in the non-glandular stomach, erosion and inflammation in the trachea, and lymphoid depletion in the thymus, spleen, and lymph nodes (mesenteric, mandibular, and axillary).					
+101	42	54	inflammation	MP:0001873		
+101	56	61	edema	MP:0001785		
+101	67	106	ulceration in the non-glandular stomach	MP:0003282		
+101	120	147	inflammation in the trachea	MP:0013498		
+						
+104	173					
+104	Test item related clinical findings were noted in the 160 mg/kg/day group males and females and included rales, decreased, shallow, and/or labored respiration and salivation related findings.					
+104	139	158	labored respiration	MP:0001943		
+						
+105	180					
+105	Significant (p<0.05 or p<0.01) differences were observed when the control and test item-treated groups were compared, and included a higher mean absolute eosinophil count in the 40 mg/kg/day group males at the primary necropsy and a higher mean absolute large unstained cell (LUC) count in the 160 mg/kg/day group females at the recovery (post-treatment) necropsy.					
+105	133	170	higher mean absolute eosinophil count	MP:0005011		
+						
+106	183					
+106	Mortality 2 male animals of the HD group as well as 4 female animals of the HD group died/were euthanized due to morbidity during the treatment period.					
+106	85	122	died/were euthanized due to morbidity	MP:0002083		
+						
+107	185					
+107	Significant (p<0.05) differences were observed when the control and high dose group males were compared at the recovery (post-treatment) necropsy and consisted of lower mean kidney weight relative to body weight, higher mean spleen weight relative to brain weight, higher mean left testis weight relative to brain weight, and higher mean right testis weights (absolute and relative to brain weight).					
+107	163	211	lower mean kidney weight relative to body weight	MP:0003918		
+107	213	238	higher mean spleen weight	MP:0004952		
+107	265	295	higher mean left testis weight	MP:0004851		
+107	326	358	higher mean right testis weights	MP:0004851		
+						
+109	192					
+109	HISTOPATHOLOGY (PARENTAL ANIMALS) Test item-related histologic observations of epithelial hyperplasia, hyperkeratosis, and inflammation of the non-glandular stomach, typically at the limiting ridge, but sometimes more widespread, were noted in the 160 mg/kg/day group males and females.					
+109	79	101	epithelial hyperplasia	MP:0005493		
+109	103	117	hyperkeratosis	MP:0014085		
+109	123	164	inflammation of the non-glandular stomach	MP:0001873		
+						
+111	196					
+111	Based on the results of this study, the parental NOEL was concluded 250 mg/kg/day (based on lower body weight gain and food consumption, increased liver weights in males, a thickened forestomach in males and hyperplasia in the forestomach in males and females at 750 mg/kg/day).					
+111	92	113	lower body weight gain	MP:0010182		
+111	137	160	increased liver weights	MP:0002981		
+111	208	238	hyperplasia in the forestomach	MP:0005493		
+						
+112	200					
+112	Effects seen at doses higher than 0.2% included increased liver enzyme activity (alkaline phosphatase and alanine aminotransferase) and increased relative weights of a number of organs, which is attributable to the reduced body weight due to lower food consumption as a result of lack of palatability.					
+112	48	79	increased liver enzyme activity	MP:0005584		
+112	81	101	alkaline phosphatase	MP:0011584		
+112	215	234	reduced body weight	MP:0001262		
+112	242	264	lower food consumption	MP:0011940		
+						
+113	203					
+113	CLINICAL SIGNS AND MORTALITY No animals died during the study and clinical signs were unremarkable.					
+113	40	44	died	MP:0002083		
+						
+114	204					
+114	BODY WEIGHT AND WEIGHT GAIN Reduced at 1% and 5%  FOOD CONSUMPTION AND COMPOUND INTAKE (if feeding study) Reduced at 1% and 5% (water consumption was also reduced at these dietary levels).					
+114	128	162	water consumption was also reduced	MP:0011942		
+						
+115	206					
+115	"White blood cell count was significantly increased in high-dose females (100/mm3: control 47 (SD +- 12.2); top dose 73.2 (SD +-16.2))."					
+115	0	50	White blood cell count was significantly increased	MP:0000218		
+						
+116	208					
+116	"Alkaline phosophatase (AP) activity increased from 1%; Total protein increased at 1% and 5% in males and at 5% in females."					
+116	0	45	Alkaline phosophatase (AP) activity increased	MP:0011584		
+						
+117	209					
+117	At 5%, alanine aminotransferase activity increased (ALAT), albumin/globulin ratio (AG) increased, (in females) total cholesterol reduced and (in males) potassium increased.					
+117	111	136	total cholesterol reduced	MP:0005179		
+117	152	171	potassium increased	MP:0005627		
+						
+118	211					
+118	The most significant effects on organ weights were: Increased relative weight of thyroid, liver and kidney in males and females at 5%.					
+118	52	88	Increased relative weight of thyroid	MP:0020169		
+118	90	95	liver	MP:0002981		
+118	100	106	kidney	MP:0003917		
+						
+119	213					
+119	Decreased absolute weight of brain in males and females at 5%.					
+119	0	34	Decreased absolute weight of brain	MP:0002175		
+						
+120	214					
+120	Relative liver, kidney, adrenal, thyroid and hypophysis weights increased in males (adrenal and thyroid effect also seen in mid-dose males).					
+120	9	14	liver	MP:0002981		
+120	16	22	kidney	MP:0003917		
+120	24	31	adrenal	MP:0013307		
+120	33	40	thyroid	MP:0020169		
+120	46	73	hypophysis weights increased	MP:0008939		
+						
+121	215					
+121	Relative thyroid, kidney and liver weights increased in high-dose females (the liver and kidney were also significantly affected in mid-dose females).					
+121	9	16	thyroid	MP:0020169		
+121	18	24	kidney	MP:0003917		
+121	30	52	liver weights increased	MP:0002981		
+						
+122	221					
+122	Effects observed on body weight, food consumption and food efficiency were considered to be attributable to lower food consumption as a result of lack of palatability.					
+122	20	31	body weight	MP:0001259		
+122	108	130	lower food consumption	MP:0011940		
+						
+124	239					
+124	However, two dead females in the 500 mg/kg treatment group had occurred, and findings of gaseous distension of gastrointestinal tract were observed.					
+124	13	17	dead	MP:0002083		
+						
+126	241					
+126	Mucous stool, soft stool, and dirty nose were observed in one male of the 500 mg/kg treatment group.					
+126	0	12	Mucous stool	MP:0005037		
+						
+127	243					
+127	CLINICAL SIGNS AND MORTALITY: In the main group, death was observed in one female (2403) of the 500 mg/kg treatment group on Day 16 of administration. And In the recovery group, death was observed in one female (2416) of the 500 mg/kg treatment group on Day 52 of administration.					
+127	49	54	death	MP:0002083		
+127	178	183	death	MP:0002083		
+						
+129	246					
+129	In addition, mucous stool, soft stool, and dirty nose were observed in one male (1407) of the 500 mg/kg treatment group on Day 22 and 23.					
+129	13	25	mucous stool	MP:0005037		
+129	27	37	soft stool	MP:0005036		
+						
+131	249					
+131	BODY WEIGHT AND WEIGHT GAIN In the main group, no treatment-related abnormalities in body weight gain were noted in all animals of the control and treatment groups.					
+131	74	101	abnormalities in body weight gain	MP:001117		
+						
+132	250					
+132	In females of the recovery group, body weights on Day 55 of administration were significantly decreased (p<0.05) compared with the control group in the 500 mg/kg treatment group.					
+132	34	103	body weights on Day 55 of administration were significantly decreased	MP:0001262		
+						
+135	254					
+135	In feamles of the recovery group, food consumtpion was significantly decreased (p<0.05) compared to with the control group on Day 13 and 34 of administration in the 500 mg/kg treatment group.					
+135	34	78	food consumtpion was significantly decreased	MP:0011940		
+						
+137	258					
+137	In females of the recovery group, triglycerides (TG, p<0.05), total proteins (TP, p<0.05), and albumin (Alb, p<0.01) were significantly decreased compared with the control group in the 500 mg/kg treatment group.					
+137	96	145	albumin (Alb, p<0.01) were significantly decreased	MP:0005419		
+						
+138	260					
+138	However, in females, absolute organ weights of kidney were significantly decreated (p<0.05, p<0.01) compared with the control group in all treatment groups, and relative organ weights of uterus were significantly decreased (p<0.05) compared with the control group in the 500 mg/kg treatment group.					
+138	21	82	absolute organ weights of kidney were significantly decreated	MP:0003918		
+138	161	222	relative organ weights of uterus were significantly decreased	MP:0004905		
+						
+140	263					
+140	GROSS PATHOLOGY In the necropsy findings of the main group agenesis of spleen was observed in one male (1302) of the 250 mg/kg treatment group, and yellow spot of epididymis was observed in one male (1408) of the 500 mg/kg treatment group.					
+140	59	77	agenesis of spleen	MP:0000690		
+						
+141	265					
+141	In the necropsy findings for dead animals, gaseous distension was observed in one female (2403) of the 500 mg/kg treatment group in the main group on Day 16 of administration.					
+141	29	33	dead	MP:0002083		
+						
+142	266					
+142	In the recovery group, gaseous distension, severe hydronephrosis of left kidney and dilation of left uterine horn were observed in one female (2416) of the 500 mg/kg treatment group on Day 52 of administration.					
+142	43	79	severe hydronephrosis of left kidney	MP:0000519		
+142	84	113	dilation of left uterine horn	MP:0009087		
+						
+143	267					
+143	HISTOPATHOLOGY: NON-NEOPLASTIC In the main group, cast of kidney was observed in one male (1104) of the control group, and sper granuloma of epididymis was observed in one male (1408) of the 500 mg/kg treatment group.					
+143	50	64	cast of kidney	MP:0011402		
+143	123	151	sper granuloma of epididymis	MP:0009824		
+						
+145	271					
+145	In the 500 mg/kg treatment group of the main group female, no histopathological change in one dead animal (2403) was observed.					
+145	94	98	dead	MP:0002083		
+						
+146	272					
+146	"In the 500 mg/kg treatment group of the recovery female, renal tissue in one dead animal (2416) was not observed by severe hydronephrosis of gross findings, and left uterine horn was dilated; however, no histopathological change was observed."					
+146	77	81	dead	MP:0002083		
+146	123	137	hydronephrosis	MP:0000519		
+146	161	190	left uterine horn was dilated	MP:0009087		
+						
+147	281					
+147	The hepatic effects did not indicate chronic toxicity - no signs of hepatic necrosis or bile duct hyperplasia were seen, but may be due to an effect on intermediary metabolism.					
+147	68	84	hepatic necrosis	MP:0001654		
+147	88	109	bile duct hyperplasia	MP:0004839		
+						
+150	288					
+150	The NOAEL for this 13 week dietary feeding study in rats is ca 750 mg/kg/day (males 723, females 875) based on reduced weight gain and food consumption.					
+150	111	130	reduced weight gain	MP:0010182		
+						
+152	290					
+152	Increased liver weights at higher dose levels may be indicative of a mild adaptive effect on the liver.					
+152	0	23	Increased liver weights	MP:0002981		
+						
+155	294					
+155	Under the present test conditions the following findings were made: Effects on the parental generation: None of the parental animals died prematurely.					
+155	133	149	died prematurely	MP:0002083		
+						
+158	302					
+158	The only treatment-related finding, not regarded as adverse, was piloerection noted in few male or female rats from a dose level of 100 mg cobalt sulphide/kg bw/day onwards.					
+158	65	77	piloerection	MP:0001492		
+						
+159	305					
+159	Under the present test conditions the following findings were made:  Effects on the parental generation: Piloerection, reduced motility, soft faeces/diarrhoea and reduced food consumption were noted - in relation to the dose - from a dose level of 100 mg cobalt powder/kg bw/day onwards.					
+159	105	117	Piloerection	MP:0001492		
+159	119	135	reduced motility	MP:0003491		
+159	137	158	soft faeces/diarrhoea	MP:0005036		
+159	163	187	reduced food consumption	MP:0011940		
+						
+160	306					
+160	In addition, reductions of body weight were noted from 300 mg cobalt powder/kg bw/day onwards.					
+160	13	38	reductions of body weight	MP:0001262		
+						
+161	307					
+161	Premature deaths occurred in five female rats at 100 mg cobalt powder/kg bw/day and eight female rats at 300 mg cobalt powder/kg bw/day.					
+161	0	16	Premature deaths	MP:0002083		
+						
+162	308					
+162	Treatment with 1000 mg cobalt powder/kg bw/day caused the premature death of nine of ten males and all ten females.					
+162	58	73	premature death	MP:0002083		
+						
+167	314					
+167	From 30 mg cobalt powder/kg bw/day onwards, the mean litter weight of pups was slightly reduced in a dose-related way (not significant at p ≤ 0.01), significant only at 300 mg cobalt powder/kg bw/day.					
+167	48	66	mean litter weight	MP:0009674		
+						
+168	315					
+168	An increased F1-offspring mortality rate and a slightly decreased viability index were noted from 100 mg cobalt powder/kg bw/day onwards.					
+168	3	40	increased F1-offspring mortality rate	MP:0008770		
+168	56	81	decreased viability index	MP:0013139		
+						
+169	316					
+169	Based on mortality, clinical signs of toxicity, effects on food consumption and macroscopic pathological changes observed at and above 100 mg cobalt powder/kg bw/day and reduced body weight at and above 300 mg cobalt powder/kg bw/day.					
+169	20	46	clinical signs of toxicity	MP:0002822		
+169	80	112	macroscopic pathological changes	MP:0005384		
+169	170	189	reduced body weight	MP:0001262		
+						
+170	317					
+170	Under the present test conditions the following findings were made:  Effects on the parental generation: Pilo-erection, reduced motility, soft faeces/diarrhoea and reduced food consumption were noted - in relation to the dose - from a dose level of 100 mg cobalt powder/kg bw/day onwards.					
+170	105	118	Pilo-erection	MP:0001492		
+170	120	136	reduced motility	MP:0003491		
+170	138	159	soft faeces/diarrhoea	MP:0005036		
+170	164	188	reduced food consumption	MP:0011940		
+						
+171	319					
+171	"CLINICAL SIGNS AND MORTALITY Mortality: - 30 mg/kg bw/day: no deaths - 100 mg/kg bw/day: 5/10 females died (one female died prematurely on gestation day 21 and four females died between lactation days 2 to 4) - 300 mg/kg bw/day: 8/10 females died (two female rats died during the mating period on test days 15 or 27, two further females died on gestation day 20 or 21 and four females died on the first lactation day) - 1000 mg/kg bw/day: 9/10 males died (death on test day 12 to 24); 10/10 females died (four of them during the mating period, one during littering and five of them during the gestation period)  Clinical signs: - males (pre-mating, mating and post-mating period): none of the male animals treated with 30 mg cobalt powder/kg bw/day revealed any test item-related signs of systemic toxicity."					
+171	62	68	deaths	MP:0002083		
+171	102	106	died	MP:0002083		
+171	119	123	died	MP:0002083		
+171	173	177	died	MP:0002083		
+171	242	246	died	MP:0002083		
+171	264	268	died	MP:0002083		
+171	337	341	died	MP:0002083		
+171	385	389	died	MP:0002083		
+171	450	454	died	MP:0002083		
+171	499	503	died	MP:0002083		
+171	789	806	systemic toxicity	MP:0002822		
+						
+172	320					
+172	Pilo-erection was noted in two of ten male rats treated with 100 mg cobalt powder/kg bw/day and in three male rats of ten treated with 300 mg cobalt powder/kg bw/day for one to three test days.					
+172	0	13	Pilo-erection	MP:0001492		
+						
+173	321					
+173	Laboured breathing was noted in one further male treated with 300 mg cobalt powder/kg bw/day on one test day.					
+173	0	18	Laboured breathing	MP:0001954		
+						
+174	322					
+174	Pilo-erection, reduced motility and soft faeces were noted in the only surviving high dose male rat treated with 1000 mg cobalt powder/kg bw/day on one or two test days before sacrifice on test day 39.					
+174	0	13	Pilo-erection	MP:0001492		
+174	15	31	reduced motility	MP:0003491		
+174	36	47	soft faeces	MP:0005036		
+						
+175	323					
+175	The nine prematurely deceased male rats revealed the following symptoms on one or a few days before death: pilo-erection, reduced motility, a haemorrhagic nose and/or soft faeces (soiled anus) were noted in all or several deceased males.					
+175	9	29	prematurely deceased	MP:0002083		
+175	107	120	pilo-erection	MP:0001492		
+175	122	138	reduced motility	MP:0003491		
+175	142	159	haemorrhagic nose	MP:0013127		
+175	167	178	soft faeces	MP:0005036		
+175	222	230	deceased	MP:0002083		
+						
+176	324					
+176	In addition, hunched posture or abdominal position, slightly decreased respiratory rate, reduced body temperature (animal cold at touch), laboured breathing, ptosis and/or a pale skin (ears or whole body) were observed in one or a few males.					
+176	13	50	hunched posture or abdominal position	MP:0001505		
+176	61	87	decreased respiratory rate	MP:0005574		
+176	89	113	reduced body temperature	MP:0005534		
+176	138	156	laboured breathing	MP:0001954		
+176	158	164	ptosis	MP:0001344		
+176	174	183	pale skin	MP:0003717		
+						
+177	325					
+177	- females (pre-mating and mating period): no test item-related signs of systemic toxicity were noted in the female animals treated with 30 or 100 mg cobalt powder/kg bw/day.					
+177	72	89	systemic toxicity	MP:0002822		
+						
+178	326					
+178	Soft faeces were noted in one low dose dam (treated with 30 mg cobalt powder/kg bw/day) on test day 17, this incidence is considered to be still within the spontaneous range as no corresponding findings were observed at 100 mg cobalt powder/kg bw/day.					
+178	0	11	Soft faeces	MP:0005036		
+						
+179	327					
+179	From 300 mg cobalt powder/kg bw/day onwards, pilo-erection and soft faeces were noted in a few to several females on a few test days.					
+179	45	58	pilo-erection	MP:0001492		
+179	63	74	soft faeces	MP:0005036		
+						
+180	328					
+180	- females (gestation period): none of the females treated with 30 mg cobalt powder/kg bw/day revealed any test item-related signs of systemic toxicity during the gestation period.					
+180	133	150	systemic toxicity	MP:0002822		
+						
+181	329					
+181	Pilo-erection was noted from 100 mg cobalt powder/kg bw/day onwards and reduced motility and soft faeces or diarrhoea were noted from 300 mg cobalt powder/kg bw/day onwards in individual to nearly all females in relation to the dose.					
+181	0	13	Pilo-erection	MP:0001492		
+181	72	88	reduced motility	MP:0003491		
+181	93	104	soft faeces	MP:0005036		
+181	108	117	diarrhoea	MP:0005036		
+						
+182	330					
+182	- females (lactation period): none of the females treated with 30 mg cobalt powder/kg bw/day revealed any test item-related signs of systemic toxicity during the lactation period.					
+182	133	150	systemic toxicity	MP:0002822		
+						
+183	331					
+183	From 100 mg cobalt powder/kg bw/day onwards, pilo-erection, reduced motility, soft faeces or diarrhoea were noted in nearly all females during the lactation period.					
+183	45	58	pilo-erection	MP:0001492		
+183	60	76	reduced motility	MP:0003491		
+183	78	89	soft faeces	MP:0005036		
+183	93	102	diarrhoea	MP:0005036		
+						
+184	332					
+184	In addition, hunched posture, decreased respiratory rate, reduced body temperature (animal cold at touch), dyspnoea, tremor, miosis, ptosis, a haemorrhagic nose, haemorrhagic urine, soft faeces or diarrhoea were observed.					
+184	13	28	hunched posture	MP:0001505		
+184	30	56	decreased respiratory rate	MP:0001954		
+184	58	82	reduced body temperature	MP:0005534		
+184	107	115	dyspnoea	MP:0001954		
+184	117	123	tremor	MP:0000745		
+184	125	131	miosis	MP:0001320		
+184	133	139	ptosis	MP:0001344		
+184	143	160	haemorrhagic nose	MP:0013127		
+184	162	180	haemorrhagic urine	MP:0011414		
+184	182	193	soft faeces	MP:0005036		
+184	197	206	diarrhoea	MP:0005036		
+						
+185	333					
+185	In addition, a pale skin was observed in some animals.					
+185	15	24	pale skin	MP:0003717		
+						
+186	336					
+186	Thin hair was observed for one low dose female from test week 5 onwards.					
+186	0	9	Thin hair	MP:0000416		
+						
+187	337					
+187	For male HD animals, an attenuated body weight gain was observed during the pre-mating period but not during the mating and post-mating period.					
+187	24	51	attenuated body weight gain	MP:0001262		
+						
+188	338					
+188	BODY WEIGHT AND WEIGHT GAIN (1000 mg/kg bw/day group was excluded from statistical comparison due to a high mortality rate) - males: the body weight in 300 and 1000 mg cobalt powder/kg bw/day groups was reduced from test week 2 onwards, being 13% (statistically significant at p ≤ 0.01) or 16% below the control value in test week 3 (mating period).					
+188	103	117	high mortality	MP:0008770		
+188	137	148	body weight	MP:0001262		
+						
+189	339					
+189	The body weight at autopsy was reduced as well (12% below the control value) in the 300 mg cobalt powder/kg bw/day group.					
+189	4	15	body weight	MP:0001262		
+						
+190	340					
+190	The body weight of the only surviving high dose male rat (1000 mg cobalt powder/kg bw/day) was slightly below the mean control value.					
+190	4	15	body weight	MP:0001262		
+						
+191	341					
+191	- females: the body weight of the female rats in the 300 mg cobalt powder/kg bw/day group was below the control on gestation day 20 (by 11%) and on lactation day 1 (by 21%, statistically significant at p ≤ 0.01).					
+191	15	26	body weight	MP:0012699		
+						
+192	342					
+192	The body weight of the two surviving females was still reduced on lactation day 4 and at autopsy (20% or 19% below the control value).					
+192	4	15	body weight	MP:0012699		
+						
+193	343					
+193	The body weight of the female rats in the 1000 mg cobalt powder/kg bw/day group was distinctly below the control (by 17%, no statistical comparison) on gestation day 14.					
+193	4	15	body weight	MP:0012699		
+						
+194	344					
+194	FOOD CONSUMPTION (1000 mg/kg bw/day group was excluded from statistical comparison due to a high mortality rate) - males: no test item-related influence was noted during the premating period at any tested dose level.					
+194	92	106	high mortality	MP:0008770		
+						
+195	348					
+195	No further data on food intake was available as both dams died shortly thereafter.					
+195	58	62	died	MP:0002083		
+						
+196	349					
+196	WATER CONSUMPTION - males: reduced intake of drinking water was noted in deceased rats treated with 1000 mg cobalt powder/kg bw/day on one to a few test days before premature death.					
+196	27	59	reduced intake of drinking water	MP:0011942		
+196	73	81	deceased 	MP:0002083		
+196	165	180	premature death	MP:0002083		
+						
+197	350					
+197	- females: reduced intake of drinking water was noted in several deceased females treated with 100, 300 mg cobalt powder/kg bw/day and in deceased rats treated with 1000 mg cobalt powder/kg bw/day on one to a few test days before premature death.					
+197	11	43	reduced intake of drinking water	MP:0011942		
+197	65	73	deceased 	MP:0002083		
+197	138	146	deceased 	MP:0002083		
+197	230	245	premature death	MP:0002083		
+						
+198	351					
+198	HAEMATOLOGY (1000 mg/kg bw/day group was excluded from statistical comparison due to a high mortality rate) - males and females: no test item-related changes in haematological parameters were noted at the end of the premating period (test day 15) of male and female rats treated with 30, 100, 300 or 1000 mg cobalt powder/kg b.w./day compared to the control.					
+198	87	101	high mortality	MP:0008770		
+						
+199	352					
+199	CLINICAL CHEMISTRY (1000 mg/kg bw/day group was excluded from statistical comparison due to a high mortality rate) - males and females: no test item-related changes were noted on biochemical parameters on test day 15 of male and female rats treated with 30, 100, 300 or 1000 mg cobalt powder/kg bw/day compared to the control.					
+199	94	108	high mortality	MP:0008770		
+						
+200	353					
+200	NEUROBEHAVIOUR (1000 mg/kg bw/day group was excluded due to a high mortality rate) 1) Observational screening:  - males: no test item-related influence was noted.					
+200	62	76	high mortality	MP:0008770		
+						
+201	355					
+201	Females treated with 100 and 300 mg cobalt powder/kg bw/day revealed pilo-erection and diarrhoea.					
+201	69	82	pilo-erection	MP:0001492		
+201	87	96	diarrhoea	MP:0005036		
+						
+202	356					
+202	The following changes were noted for the females treated with 300 mg cobalt powder/kg bw/day: no response to the toe and tail pinch, a reduced hind leg splay (significant at p = 0.01), no resistance to limb rotation, impairment of wire manoeuvre, a reduced or increased respiration, no positive geotropism or a distinctly reduced body temperature.					
+202	94	131	no response to the toe and tail pinch	MP:0012002		
+202	135	157	reduced hind leg splay	MP:0031204		
+202	185	215	no resistance to limb rotation	MP:0001491		
+202	217	245	impairment of wire manoeuvre	MP:0010053		
+202	249	281	reduced or increased respiration	MP:0001943		
+202	286	305	positive geotropism	MP:0001516		
+202	322	346	reduced body temperature	MP:0005534		
+						
+203	357					
+203	These findings have to be seen in connection with the moribund condition of two of four female animals.					
+203	54	72	moribund condition	MP:0013139		
+						
+204	358					
+204	All lesions are regarded to be test item-related.					
+204	4	11	lesions	MP:0013027		
+						
+205	359					
+205	2) Functional observations:  - males and females: at 100 and 300 mg cobalt powder/kg bw/day revealed reductions for the forelimb grip strength in both sexes (statistically significant at p = 0.01 in the males) and for the hind limb grip strength in the females (statistically significant at p = 0.01 at 300 mg cobalt powder/kg bw/day).					
+205	101	142	reductions for the forelimb grip strength	MP:0010053		
+205	222	245	hind limb grip strength	MP:0010053		
+						
+206	360					
+206	Spontaneous motility was not influenced by the test item at any tested dose level.					
+206	0	20	Spontaneous motility	MP:0002066		
+						
+208	362					
+208	GROSS PATHOLOGY - males: at 1000 mg cobalt powder/kg bw/day, a reddened stomach was noted in the only survivor of ten males of the high dose level.					
+208	63	79	reddened stomach	MP:0031153		
+						
+209	363					
+209	Macroscopic inspection of the prematurely deceased nine males revealed pathological changes of the adrenals (enlarged and / or reddened) and the gastro-intestinal region (reddened intestines, caecum or stomach) in nearly all animals.					
+209	30	50	prematurely deceased	MP:0002083		
+209	71	107	pathological changes of the adrenals	MP:0000639		
+209	109	117	enlarged	MP:0000642		
+209	127	135	reddened	MP:0001634		
+209	171	209	reddened intestines, caecum or stomach	MP:0000465		
+						
+210	364					
+210	In addition, lesions of the lungs (oedematous) were noted in some animals, changes of thymus (reddened) were seen in two of nine animals.					
+210	13	33	lesions of the lungs	MP:0010857		
+210	75	103	changes of thymus (reddened)	MP:0000703		
+						
+211	365					
+211	- females: from a dose level of 100 mg cobalt powder/kg bw/day onwards, changes of the gastrointestinal tract (reddened, haemorrhagic foci, filled with fluid) were noted - in relation to the dose - in a few to several animals.					
+211	72	109	changes of the gastrointestinal tract	MP:0000477		
+211	87	119	gastrointestinal tract (reddened	MP:0000465		
+211	121	138	haemorrhagic foci	MP:0000465		
+211	140	157	filled with fluid	MP:0003288		
+						
+212	366					
+212	In addition, a reddened thymus was noted in a few females treated with 100 mg cobalt powder/kg bw/day.					
+212	15	30	reddened thymus	MP:0000703		
+						
+213	367					
+213	These lesions are regarded to be test item-related.					
+213	6	13	lesions	MP:0013027		
+						
+214	368					
+214	Further changes were noted at 1000 mg cobalt powder/kg bw/day in the form of enlarged and / or reddened adrenals in nearly all animals and oedematous lungs in some animals.					
+214	77	85	enlarged	MP:0000642		
+214	77	112	enlarged and / or reddened adrenals	MP:0000639		
+214	95	112	reddened adrenals	MP:0001634		
+214	139	155	oedematous lungs	MP:0003828		
+						
+215	369					
+215	These lesions are regarded to be test item-related.					
+215	6	13	lesions	MP:0013027		
+						
+216	370					
+216	Frequent macroscopic observations of abnormal colour (blue or dark) and/or abnormal content (blue or dark) in several tissues were not correlated histopathologically.					
+216	37	52	abnormal colour	MP:0000358		
+216	75	91	abnormal content	MP:0000358		
+						
+217	371					
+217	HISTOPATHOLOGY: NON-NEOPLASTIC - males and females: histomorphological examination of rat organs after treatment with either 30, 100, 300 or 1000 mg cobalt powder/kg bw/day did not reveal any morphological lesions which are considered to be related to the test item.					
+217	192	213	morphological lesions	MP:0013027		
+						
+218	372					
+218	For the macroscopical lesions noted at necropsy no histological correlate could be found.					
+218	8	29	macroscopical lesions	MP:0013027		
+						
+219	373					
+219	Oral administration of the substance was well tolerated in the adult animals but was associated with changes in the kidneys of females treated at 1000 mg/kg/day.					
+219	101	123	changes in the kidneys	MP:0002135		
+						
+220	374					
+220	An increased presence of brownish pigment in the cortical tubules of 6/10 animals, identified as lipofuscin and considered to be accompanied by test item material, was identified.					
+220	3	65	increased presence of brownish pigment in the cortical tubules	MP:0002703		
+						
+222	380					
+222	Sensory reactivity and grip strength were also unaffected by treatment but females receiving 1000 mg/kg/day were less active than the controls.					
+222	113	124	less active	MP:0002899		
+222	113	124	less active	MP:0020224		
+						
+223	381					
+223	The haematological investigation revealed slightly low haematocrit and haemoglobin concentration in males receiving 1000 mg/kg/day and high neutrophil and low lymphocytes counts in females receiving 1000 mg/kg/day.					
+223	51	66	low haematocrit	MP:0000208		
+223	71	96	haemoglobin concentration	MP:0002874		
+223	51	96	low haematocrit and haemoglobin concentration	MP:0013656		
+223	135	150	high neutrophil	MP:0000219		
+223	155	177	low lymphocytes counts	MP:0005016		
+223	135	177	high neutrophil and low lymphocytes counts	MP:0013656		
+						
+224	383					
+224	Clinical biochemistry showed decrease in alanine amino-transferase activity and increase in triglyceride concentrations in males at 1000 mg/kg/day.					
+224	29	75	decrease in alanine amino-transferase activity	MP:0002942		
+224	80	119	increase in triglyceride concentrations	MP:0001552		
+						
+225	384					
+225	Aspartate amino-transferase activity was high for females receiving 1000 mg/kg/day.					
+225	0	45	Aspartate amino-transferase activity was high	MP:0005343		
+						
+226	385					
+226	A/G ratios were low in all female groups and in the high dose females this associated with a reduction in plasma albumin concentration.					
+226	93	134	reduction in plasma albumin concentration	MP:0005419		
+						
+227	387					
+227	The profile of proteins in the plasma may also be influenced by changes in hepatic metabolism (influencing the production) but also by kidney function (controlling the excretion).					
+227	64	93	changes in hepatic metabolism	MP:0003325		
+						
+228	388					
+228	The mineralization seen in the kidneys, which was considered incidental, may however have contributed to a disturbance in renal metabolism and therefore, the variations in the plasma proteins may also be incidental and not directly related to treatment.					
+228	4	38	mineralization seen in the kidneys	MP:0011534		
+228	107	138	disturbance in renal metabolism	MP:0003325		
+228	158	191	variations in the plasma proteins	MP:0002439		
+						
+229	389					
+229	The microscopic evaluation of the tissues revealed an increased presence of brownish pigment in the cortical tubules of the kidneys of 6/10 females treated at 1000 mg/kg/day, identified by special staining as lipofuscin (considered of limited or no functional significance, (Frazier et al, 2012)), but it was considered that test item material was also present.					
+229	54	131	increased presence of brownish pigment in the cortical tubules of the kidneys	MP:0002703		
+						
+230	391					
+230	Incidences and severities of mineralization observed in kidney, stomach and heart are considered incidental and unrelated to treatment.					
+230	29	62	mineralization observed in kidney	MP:0011534		
+230	29	81	mineralization observed in kidney, stomach and heart	MP:0000358		
+						
+231	392					
+231	The increased pigment presence was not related to mineralisation and was an integral effect of treatment, but as stated above considered non-adverse.					
+231	4	30	increased pigment presence	MP:0000358		
+231	50	64	mineralisation	MP:0000358		
+						
+232	393					
+232	Kidney weights were increased in males and females treated at 1000 mg/kg/day.					
+232	0	29	Kidney weights were increased	MP:0003068		
+						
+233	397					
+233	At a dose level of 500 mg/kg body weight mortalities occurred in male and female animals.					
+233	41	52	mortalities	MP:0002083		
+						
+234	400					
+234	The male animals were found dead/euthanized on mating and post-mating days 8 and 15.					
+234	28	43	dead/euthanized	MP:0002083		
+						
+235	401					
+235	The female animals were found dead/euthanized on Premating Days 13 (twice) as well as gestation days 17 and 19.  No mortality occurred in the other treatment or control groups.					
+235	30	45	dead/euthanized	MP:0002083		
+235	116	125	mortality	MP:0002083		
+						
+236	404					
+236	"In male treatment animals e.g. vocalization (4/10 HD animals), moving the bedding (3/10 HD animals; 1/10 MD animal), abnormal breathing (9/10 HD animals, 1/10 MD animal), slight piloerection (10/10 HD animals, 7/10 MD animals, 1/10 LD animals), moderate piloerection (8/10 HD animals, 4/10 MD animals, 1/10 LD animals) were found increased when compared with C group."					
+236	31	43	vocalization	MP:0013140		
+236	63	81	moving the bedding	MP:0014039		
+236	117	135	abnormal breathing	MP:0001943		
+236	171	190	slight piloerection	MP:0001492		
+236	245	266	moderate piloerection	MP:0001492		
+						
+237	405					
+237	In female treatment animals e.g. vocalization (5/10 HD animals), half eyelid closure (2/10 HD animals), moving the bedding (8/10 HD animals), abnormal breathing (10/10 HD animals), moderate salivation (3/10 HD animals, 1/10 MD animals), slight salivation (4/10 HD animals, 1/10 MD animals, 1/10 LD animals), slight piloerection (10/10 HD animals, 9/10 MD animals, 2/10 LD animals), moderate piloerection (10/10 HD animals, 1/10 MD animals, 1/10 LD animals), severe piloerection (4/10 HD animals) were observed.					
+237	33	45	vocalization	MP:0013140		
+237	65	84	half eyelid closure	MP:0003671		
+237	104	122	moving the bedding	MP:0014039		
+237	104	122	moving the bedding	MP:0001447		
+237	142	160	abnormal breathing	MP:0001943		
+237	181	200	moderate salivation	MP:0000622		
+237	237	254	slight salivation	MP:0000622		
+237	308	327	slight piloerection	MP:0001492		
+237	382	403	moderate piloerection	MP:0001492		
+237	458	477	severe piloerection	MP:0001492		
+						
+238	409					
+238	Body temperature of female HD animals was slightly increased at the end of the treatment.					
+238	0	16	Body temperature	MP:0005533		
+						
+239	411					
+239	Body Weight Development In male animals body weight increase was comparable for C, LD, and MD animals during the treatment period.					
+239	40	60	body weight increase	MP:0001260		
+						
+240	412					
+240	This attenuated body weight gain can be attributed to the test item and is assumed to be of toxicological relevance.					
+240	5	32	attenuated body weight gain	MP:0010182		
+						
+241	413					
+241	In female animals body weight was significantly lower in HD group when compared to C group (p<0.01).					
+241	18	53	body weight was significantly lower	MP:0001262		
+						
+242	414					
+242	Furthermore, body weight gain was significantly attenuated in HD group between GD0 and GD7 (p<0.05).					
+242	13	58	body weight gain was significantly attenuated	MP:0010182		
+						
+243	415					
+243	Furthermore, body weight gain was attenuated during the whole pre-mating and gestation period in HD animals.					
+243	13	44	body weight gain was attenuated	MP:0010182		
+						
+244	420					
+244	Food Consumption In correlation to the body weight and body weight change, the food consumption in both males and females showed some differences in treatment groups when compared with C group.					
+244	55	73	body weight change	MP:0001259		
+244	79	95	food consumption	MP:0005449		
+						
+245	426					
+245	Since the decreased food consumption of the HD animals correlates with an attenuated body weight gain this is considered to be test item related and of toxicological relevance.					
+245	10	36	decreased food consumption	MP:0011940		
+245	74	101	attenuated body weight gain	MP:0010182		
+						
+246	428					
+246	Haematology and Coagulation At the end of the treatment period a slight tendency towards an increased amount of white blood cells could be observed in male HD animals (6.04 x 103/µl) when compared to C animals (4.68 x 103/µl).					
+246	92	129	increased amount of white blood cells	MP:0000218		
+						
+247	431					
+247	In female animals, an increased percentage of monocytes could be observed.					
+247	22	55	increased percentage of monocytes	MP:0000220		
+						
+248	436					
+248	This increased amount of monocytes could be test item related as well as toxicological relevant in the HD group.					
+248	5	34	increased amount of monocytes	MP:0000220		
+						
+249	437					
+249	Percentage of eosinophils of female animals was significantly increased in MD animals (0.83 %) when compared to C animals (0.24 %).					
+249	0	71	Percentage of eosinophils of female animals was significantly increased	MP:0005011		
+						
+250	440					
+250	"At the end of the treatment period levels of Cholesterol were significantly increased in male LD group (1.17; p<0.05) and HD group (1.18; p<0.05) when compared with C group (0.86)."					
+250	35	85	levels of Cholesterol were significantly increased	MP:0005178		
+						
+252	451					
+252	Changes in serum levels of ASAT may indicate a liver, heart, or muscle disturbance.					
+252	0	31	Changes in serum levels of ASAT	MP:0000203		
+252	47	82	liver, heart, or muscle disturbance	MP:0005370		
+252	54	82	heart, or muscle disturbance	MP:0002108		
+252	64	82	muscle disturbance	MP:0002108		
+						
+253	454					
+253	Values of Phosphate are slightly decreased in HD group (1.74) when compared to C group (3.21).					
+253	0	42	Values of Phosphate are slightly decreased	MP:0000198		
+						
+254	455					
+254	Several reasons exist for slightly low phosphate levels and the irritant effects of the test item could be e.g. responsible for a decreased absorption of phosphate from the food.					
+254	35	55	low phosphate levels	MP:0000198		
+254	64	80	irritant effects	MP:0001845		
+254	130	163	decreased absorption of phosphate	MP:0010110		
+						
+255	456					
+255	However, since no other clear indications for the reason of the decreased phosphate levels are detected and since the decrease is not statistical significant it is assumed that this decrease may be test item related but is without toxicological relevance within this study.					
+255	64	90	decreased phosphate levels	MP:0000198		
+						
+256	458					
+256	The urine analysis in female animals revealed increased blood content in HD animals as well as an increased protein content in treatment groups.					
+256	46	69	increased blood content	MP:0011414		
+256	98	123	increased protein content	MP:0002962		
+						
+259	466					
+259	A small sized spleen or thymus was found in 2/10 female HD animals.					
+259	2	20	small sized spleen	MP:0000692		
+259	2	30	small sized spleen or thymus	MP:0002221		
+						
+260	467					
+260	Organ Weight In male animals absolute weight of spleens was slightly increased in MD groups and was significantly increased (p<0.05) in HD group.					
+260	29	78	absolute weight of spleens was slightly increased	MP:0004952		
+						
+261	474					
+261	Increased spleen weights could be an indicator of an immune stimulation.					
+261	0	24	Increased spleen weights	MP:0004952		
+261	53	71	immune stimulation	MP:0005387		
+						
+262	477					
+262	Absolute prostate weights (plus seminal vesicles and coagulating glands) was decreased in male HD group (1.89 g) when compared to C group (2.2 g).					
+262	0	86	Absolute prostate weights (plus seminal vesicles and coagulating glands) was decreased	MP:0004962		
+						
+263	479					
+263	In male animals, absolute weights of thymus were slightly increased in HD group (0.43 g) when compared to C group (0.39 g).					
+263	17	67	absolute weights of thymus were slightly increased	MP:0004955		
+						
+264	481					
+264	In female animals, absolute weights of thymus were slightly decreased.					
+264	19	69	absolute weights of thymus were slightly decreased	MP:0004956		
+						
+265	488					
+265	Two males and four females treated at 500 mg/kg/day died or were sacrificed moribund during the treatment period, all of which showed gaseous distension of the gastrointestinal tract.					
+265	52	56	died	MP:0002083		
+265	76	84	moribund	MP:0013139		
+265	134	182	gaseous distension of the gastrointestinal tract	MP:0009511		
+						
+266	494					
+266	Among these, male No. 40, found dead, had prominent findings in the respiratory system, indicative of gavaging error or regurgitation/aspiration of test item formulation into the airways.					
+266	32	36	dead	MP:0002083		
+266	42	86	prominent findings in the respiratory system	MP:0002133		
+266	120	144	regurgitation/aspiration	MP:0002296		
+						
+267	495					
+267	The other five decedents showed combinations of histological lesions in the gastrointestinal and/or respiratory tract which were indicative of a local irritant effect of the test item formulation.					
+267	48	117	histological lesions in the gastrointestinal and/or respiratory tract	MP:0013027		
+						
+268	496					
+268	Degenerative/atrophic changes of the lymphoid organs and hypocellularity of the bone marrow in all of these animals were considered to be secondary to bad general condition and/or agonal stress.					
+268	0	52	Degenerative/atrophic changes of the lymphoid organs	MP:0031071		
+268	57	91	hypocellularity of the bone marrow	MP:0000333		
+268	180	193	agonal stress	MP:0003064		
+						
+269	499					
+269	The reproductive organs of the females found non-gravid at terminal sacrifice showed normal reproductive sexual cycle.					
+269	85	117	normal reproductive sexual cycle	MP:0002169		
+						
+270	501					
+270	Minimal tracheal changes in two surviving animals treated at 500 mg/kg/day were considered to be most probably related to a local irritant effect of the test item formulation.					
+270	0	24	Minimal tracheal changes	MP:0002282		
+						
+272	510					
+272	Excessive struggling was also reported during exposure on single occasions for one male in the low dose group and two female in the high dose group.					
+272	0	20	Excessive struggling	MP:0012001		
+						
+273	512					
+273	It should be noted that the test substance was repeatedly applied to already damaged skin, which may have exacerbated the effects noted.					
+273	77	89	damaged skin	MP:0001212		
+						
+274	514					
+274	The clinical signs and effects on body weight and food consumption are considered to be a consequence of the local irritant effect and the effects on white blood cell counts and albumin and globulin levels attributable to the acute dermal inflammatory response.					
+274	232	260	dermal inflammatory response	MP:0004947		
+						
+275	515					
+275	The increased adrenal weights (with no associated pathological changes) were attributed to a stress response, also as a result of the dermal irritation.					
+275	4	29	increased adrenal weights	MP:0013307		
+275	93	108	stress response	MP:0001363		
+275	134	151	dermal irritation	MP:0001212		
+						
+276	517					
+276	There were also changes to some clinical chemistry parameters noted (decreased glucose and calcium, increased urea nitrogen, alkaline phosphatase, aspartate aminotransferase and alanine aminotransferase).					
+276	69	98	decreased glucose and calcium	MP:0009642		
+276	69	86	decreased glucose	MP:0005560		
+276	91	98	calcium	MP:0000195		
+276	100	202	increased urea nitrogen, alkaline phosphatase, aspartate aminotransferase and alanine aminotransferase	MP:0009642		
+276	100	123	increased urea nitrogen	MP:0005565		
+276	125	145	alkaline phosphatase	MP:0002968		
+276	147	173	aspartate aminotransferase	MP:0005343		
+276	178	202	alanine aminotransferase	MP:0002941		
+						
+277	520					
+277	CLINICAL SIGNS AND MORTALITY Vocalisation (due to pain) was the predominant sign observed in the high dose group (females) generally on one to three days most often during the second week of test article administration.					
+277	29	55	Vocalisation (due to pain)	MP:0013140		
+						
+278	521					
+278	Marked dermal irritation was noted in all dose groups and consisted of very slight to severe erythema, very slight to moderate edema, persistant desquamation, eschar, exfoliation, clear exudate and fissuring.					
+278	7	24	dermal irritation	MP:0001212		
+278	93	101	erythema	MP:0001190		
+278	127	132	edema	MP:0001786		
+278	145	157	desquamation	MP:0001230		
+278	159	165	eschar	MP:0001195		
+278	167	178	exfoliation	MP:0009473		
+278	186	193	exudate	MP:0011514		
+278	198	207	fissuring	MP:0001192		
+						
+279	522					
+279	BODY WEIGHT AND WEIGHT GAIN Group mean body weights were lower than Control during the study for males at 300 mg/kg/day and both sexes at 1000 mg/kg/day by up to 19% at the end of the treatment period.					
+279	34	62	mean body weights were lower	MP:0001262		
+						
+280	523					
+280	A simialr, but less marked effect on body weight was recorded for both sexes at 100 mg/kg/day and 300 mg/kg/day females with group mean body weight up to 6% lower than Control at the end of the treatment period.					
+280	131	162	mean body weight up to 6% lower	MP:0001262		
+						
+281	524					
+281	FOOD CONSUMPTION Group mean food consumption was slightly lower than Control for males at 1000 mg/kg/day up to Week 9 of the treatment period.					
+281	23	63	mean food consumption was slightly lower	MP:0011940		
+						
+282	525					
+282	Slightly lower group mean food consumption was also noted for females at the same dose during the first week of treatment.					
+282	9	42	lower group mean food consumption	MP:0011940		
+						
+283	529					
+283	HAEMATOLOGY Group mean white blood cell count and neutrophil counts were increased in treated groups compared to Control.					
+283	18	82	mean white blood cell count and neutrophil counts were increased	MP:0000217		
+283	18	45	mean white blood cell count	MP:0000218		
+283	50	82	neutrophil counts were increased	MP:0000219		
+						
+284	531					
+284	The effect on white cell counts was considered to be attributable to the acute dermal inflammatory response.					
+284	79	107	dermal inflammatory response	MP:0004947		
+						
+285	532					
+285	CLINICAL CHEMISTRY Group mean albumin was increased and group mean globulin and A/G ratio were decreased in a non dose-related manner in all treatment groups.					
+285	25	51	mean albumin was increased	MP:0002965		
+285	62	104	mean globulin and A/G ratio were decreased	MP:0006376		
+						
+286	533					
+286	These changes were considered to be indicative of the acute dermal inflammatory response.					
+286	60	88	dermal inflammatory response	MP:0004947		
+						
+287	534					
+287	A dose-related decrease in group mean glucose levels was noted in all treated groups.					
+287	15	52	decrease in group mean glucose levels	MP:0005560		
+						
+288	535					
+288	Group mean calcium was decreased in 1000 mg/kg/day males and females.					
+288	6	32	mean calcium was decreased	MP:0000195		
+						
+289	536					
+289	Increases in group mean urea nitrogen, alkaline phosphatase, aspartate aminotransferse and/or alanine aminotransferase were also noted at 1000 mg/kg/day.					
+289	0	118	Increases in group mean urea nitrogen, alkaline phosphatase, aspartate aminotransferse and/or alanine aminotransferase	MP:0009642		
+289	0	37	Increases in group mean urea nitrogen	MP:0005565		
+289	39	59	alkaline phosphatase	MP:0002968		
+289	61	86	aspartate aminotransferse	MP:0005343		
+289	94	118	alanine aminotransferase	MP:0002941		
+						
+290	537					
+290	ORGAN WEIGHTS Group mean absolute and relative adrenal weights were increased in all treated groups.					
+290	25	77	absolute and relative adrenal weights were increased	MP:0013307		
+290	47	77	adrenal weights were increased	MP:0013307		
+						
+291	538					
+291	GROSS PATHOLOGY The only test article related gross lesions observed included scabbing and thickening of the skin at the test site.					
+291	46	59	gross lesions	MP:0001212		
+291	91	113	thickening of the skin	MP:0001200		
+						
+292	540					
+292	HISTOPATHOLOGY: NON-NEOPLASTIC Squamous cell hyperplasia, hyperkeratosis and suppurative inflammation in the skin of the application site was noted in males and females of all treated groups.					
+292	31	56	Squamous cell hyperplasia	MP:0001214		
+292	58	72	hyperkeratosis	MP:0001242		
+292	77	113	suppurative inflammation in the skin	MP:0004947		
+						
+293	541					
+293	NOAEL for local effects, based on severe dermal irritation recorded at all doses.					
+293	41	58	dermal irritation	MP:0009931		
+						
+294	544					
+294	No treatment-related effects were observed at 100 ppm dose level and the LOEL, based on decreased food and water consumption and the observation of duodenal mycosal hyperplasia, was 300 ppm.					
+294	88	124	decreased food and water consumption	MP:0002069		
+294	88	102	decreased food	MP:0011940		
+294	107	124	water consumption	MP:0011950		
+294	148	176	duodenal mycosal hyperplasia	MP:0000496		
+294	165	176	hyperplasia	MP:0001214		
+						
+295	545					
+295	"26 and 37 mg/kg bw/day for males and females, respectively; dose-related reductions in food and water consumption were seen at the next higher doses level of 300 ppm; additionally, duodenal mucosal hyperplasia was observed at 300 ppm NOEL"					
+295	73	113	reductions in food and water consumption	MP:0002069		
+295	73	91	reductions in food	MP:0011940		
+295	96	113	water consumption	MP:0011950		
+295	181	209	duodenal mucosal hyperplasia	MP:0000496		
+295	198	209	hyperplasia	MP:0001214		
+						
+296	546					
+296	No treatment-related deaths occurred and no treatment-related clinical signs were noted at any time of the study.					
+296	21	27	deaths	MP:0002083		
+						
+297	547					
+297	Male and females exhibited significant reductions in body weight at 3000 ppm.					
+297	39	64	reductions in body weight	MP:0001262		
+						
+298	548					
+298	Food and water consumption were significantly reduced at 3000 ppm and notably reduced at 1000 and 300 ppm.					
+298	0	53	Food and water consumption were significantly reduced	MP:0002069		
+298	0	4	Food	MP:0011940		
+298	9	26	water consumption	MP:0011950		
+						
+299	549					
+299	Males receiving 3000 ppm displayed significant reductions in total protein and globulin levels in the blood, possibly caused by mucosal hyperplasia occurring in the duodenum of these animals.					
+299	47	107	reductions in total protein and globulin levels in the blood	MP:0005416		
+299	47	74	reductions in total protein	MP:0005567		
+299	79	107	globulin levels in the blood	MP:0006376		
+299	128	173	mucosal hyperplasia occurring in the duodenum	MP:0000496		
+299	136	147	hyperplasia	MP:0001214		
+						
+300	550					
+300	Necropsy revealed no treatment-related gross lesions.					
+300	39	52	gross lesions	MP:0001212		
+						
+301	552					
+301	Tissue slides indicated an increase in the cross sectional diameter and wall thickness of the duodenum.					
+301	27	102	increase in the cross sectional diameter and wall thickness of the duodenum	MP:0011882		
+						
+302	553					
+302	Subsequent microscopic evaluations revealed mild mucosal hyperplasia in eight of nine males receiving 3000 ppm and in seven of ten males receiving 1000 ppm.					
+302	49	68	mucosal hyperplasia	MP:0000496		
+302	57	68	hyperplasia	MP:0001214		
+						
+303	554					
+303	Minimal mucosal hyperplasia was noted in one of ten males receiving 300 ppm.					
+303	8	27	mucosal hyperplasia	MP:0000496		
+303	16	27	hyperplasia	MP:0001214		
+						
+304	555					
+304	Minimal to mild mucosal hyperplasia was also seen in ten of ten females receiving 3000 ppm and in eight of ten females receiving 1000 ppm.					
+304	16	35	mucosal hyperplasia	MP:0000496		
+304	24	35	hyperplasia	MP:0001214		
+						
+305	557					
+305	"No evidence of cellular atypia or architectual disruptions nor any other indications of neoplastic changes were observed; therefore, the treatment-related mucosal hyperplasia noted was not considered as a neoplastic lesion."					
+305	15	30	cellular atypia	MP:0005384		
+305	155	174	mucosal hyperplasia	MP:0000496		
+305	163	174	hyperplasia	MP:0001214		
+305	205	222	neoplastic lesion	MP:0001212		
+305	216	222	lesion	MP:0001212		
+						
+306	559					
+306	Body weight gain was slightly decreased in males and females at 160 and 600 mg/kg/day, but there was no dose response.					
+306	0	39	Body weight gain was slightly decreased	MP:0010182		
+						
+307	563					
+307	Reduced weight gain, adaptive changes to liver and kidneys NOAEL					
+307	0	19	Reduced weight gain	MP:0010182		
+						
+309	565					
+309	A NOAEL was set at 250 mg/kg/day in females based on statistically significant increase in relative and absolute liver weights and relative kidney weights associated with a statistically significant decrease in bodyweight at 500 mg/kg bw/day.					
+309	79	154	increase in relative and absolute liver weights and relative kidney weights	MP:0031094		
+309	79	126	increase in relative and absolute liver weights	MP:0002981		
+309	140	154	kidney weights	MP:0003917		
+309	199	221	decrease in bodyweight	MP:0001262		
+						
+310	566					
+310	A NOAEL was set at 500 mg/kg bw/day in males based on mortality and statistically significant decreased bodyweight at 1000 mg/kg bw/day.					
+310	54	63	mortality	MP:0002083		
+310	94	114	decreased bodyweight	MP:0001262		
+						
+311	567					
+311	Slight increases in relative liver weights were observed at 250 and 500 mg/kg bw/day but they were not associated with any other toxic effect (bodyweight, hematology, histopathology).					
+311	7	42	increases in relative liver weights	MP:0002981		
+						
+312	569					
+312	- Clinical findings in animals that did not survive to the end of the study included thinness, lethargy, and abnormal breathing.					
+312	36	51	did not survive	MP:0002083		
+312	85	93	thinness	MP:0013138		
+312	95	103	lethargy	MP:0005202		
+312	109	127	abnormal breathing	MP:0002327		
+						
+313	570					
+313	"MORTALITY - All 4000 mg/kg bw/day male and female mice died during week 1; 9/10 males and 8/10 females in 2000 mg/kg bw/day group died by week 4   BODY WEIGHT AND WEIGHT GAIN - Mean body weights of 1000 mg/kg bw/day males and 500 and 2000 mg/kg bw/day females were significantly less than those of the vehicle controls   HAEMATOLOGY & CLINICAL CHEMISTRY:  - At week 14, an approximately 15-20 % decrease in hematocrit, hemoglobin, and erythrocyte count values occurred in the 1000 mg/kg bw/day male and female mice."					
+313	55	59	died	MP:0002083		
+313	130	134	died	MP:0002083		
+313	177	194	Mean body weights	MP:0001262		
+313	395	459	decrease in hematocrit, hemoglobin, and erythrocyte count values	MP:0013657		
+313	395	417	decrease in hematocrit	MP:0000208		
+313	419	429	hemoglobin	MP:0002874		
+313	435	452	erythrocyte count	MP:0002875		
+						
+314	571					
+314	However, the erythron effect may be secondary to the decreased body weights.					
+314	53	75	decreased body weights	MP:0001262		
+						
+315	572					
+315	ORGAN WEIGHTS - Liver: Relative liver weights of 500 and 1000 mg/kg bw/day males and the absolute and relative liver weights of 250 mg/kg bw/day males and 500 and 1000 mg/kg bw/day females were significantly greater than those of the vehicle controls  - Kidney: Absolute and relative right kidney weights of 1000 mg/kg bw/day females, and the relative kidney weights or 250 and 500 mg/kg bw/day females were significantly greater than those of the vehicle controls.					
+315	32	45	liver weights	MP:0002981		
+315	111	124	liver weights	MP:0002981		
+315	290	304	kidney weights	MP:0003917		
+315	352	366	kidney weights	MP:0003917		
+						
+316	574					
+316	- Mice in 2000 and 4000 mg/kg bw/day groups were not evaluated due to early deaths.					
+316	70	82	early deaths	MP:0002083		
+						
+317	575					
+317	Mortality and statistically significant decreased bodyweight at 1000 mg/kg bw/day.					
+317	0	9	Mortality	MP:0002083		
+317	40	60	decreased bodyweight	MP:0001262		
+						
+318	576					
+318	Slight increases in relative liver weights at 250 and 500 mg/kg bw/day not related with any other toxic effect (bodyweight, hematology, histopathology) NOAEL					
+318	7	42	increases in relative liver weights	MP:0002981		
+						
+319	580					
+319	Adult Responses:  MORTALITY: One female treated with 1000 mg/kg/day was killed in extremis due to difficulties during parturition.					
+319	72	78	killed	MP:0008028		
+319	79	90	in extremis	MP:0013139		
+319	98	129	difficulties during parturition	MP:0002907		
+						
+320	581					
+320	There were no further unscheduled deaths during the study.					
+320	34	40	deaths	MP:0002083		
+						
+321	583					
+321	One female treated with 1000 mg/kg/day showed clinical signs consisting of prostration, hypothermia, pallor of the extremities, pilo-erection and ptosis on Day 41.					
+321	75	86	prostration	MP:0001504		
+321	88	99	hypothermia	MP:0005534		
+321	101	107	pallor	MP:0003717		
+321	101	126	pallor of the extremities	MP:0013133		
+321	128	141	pilo-erection	MP:0001492		
+321	146	152	ptosis	MP:0001344		
+						
+322	584					
+322	This animal was in the late stage of gestation and the clinical signs observed would suggest that the animal was experiencing difficulties in parturition.					
+322	126	153	difficulties in parturition	MP:0002907		
+						
+323	586					
+323	Remaining clinical signs consisted of increased salivation detected for one male treated with 100 mg/kg/day on Day 23 and swollen limbs were observed for another male treated with 100 mg/kg/day from Day 11 onwards.					
+323	38	58	increased salivation	MP:0000622		
+323	122	135	swollen limbs	MP:0020242		
+						
+324	587					
+324	Generalised fur loss was evident for one female treated with 300 mg/kg/day from Day 39 onwards.					
+324	0	20	Generalised fur loss	MP:0000416		
+						
+325	592					
+325	Functional Performance Tests: A statistically significant increase in the final 20% of overall activity was observed for males treated with 1000 and 300 mg/kg/day (P<0.01).					
+325	58	103	increase in the final 20% of overall activity	MP:0020223		
+						
+326	598					
+326	Females treated with 1000 mg/kg/day showed a slightly higher overall bodyweight gain when compared to controls during gestation and lactation, although statistical differences were not observed.					
+326	54	84	higher overall bodyweight gain	MP:0005455		
+						
+327	600					
+327	Males treated with 1000 and 300 mg/kg/day showed a statistically significant reduction in bodyweight gains when compared to controls between Days 1 to 4 (P<0.01), and the effect was still evident for males treated with 1000 mg/kg/day between Days 4 to 8 (P<0.05).					
+327	77	106	reduction in bodyweight gains	MP:0010182		
+						
+328	603					
+328	Females treated with 1000 mg/kg/day showed a statistically significant increase in bilirubin levels when compared to controls during the Day 14 assessments (P<0.05).					
+328	71	99	increase in bilirubin levels	MP:0005344		
+						
+329	610					
+329	A reduction in blood albumin levels were also evident, but these were observed in the female 300 mg/kg/day dose group only (P<0.05), with two values from this dose group outside of the normally expected range.					
+329	2	35	reduction in blood albumin levels	MP:0005419		
+						
+330	612					
+330	Final blood chemical assessments revealed an increase in potassium (P<0.05) and bilirubin (P<0.01) for males treated with 1000 mg/kg/day when compared to controls.					
+330	45	89	increase in potassium (P<0.05) and bilirubin	MP:0009642		
+330	45	66	increase in potassium	MP:0005627		
+330	80	89	bilirubin	MP:0005344		
+						
+331	614					
+331	Increases in blood sodium and calcium were also observed for females treated with 1000 and 300 mg/kg/day when compared to controls (P<0.05).					
+331	0	37	Increases in blood sodium and calcium	MP:0006357		
+331	0	25	Increases in blood sodium	MP:0005633		
+331	30	37	calcium	MP:0000194		
+						
+332	615					
+332	Increases in sodium levels were also evident for females treated with 100 mg/kg/day (P<0.05) in comparison to controls.					
+332	0	26	Increases in sodium levels	MP:0005633		
