@@ -77,11 +77,11 @@
 35	43	62	reduced body weight	MP:0001262		
 						
 39	71					
-39	"- statistically significant differences in haematological parameters compared to the control animals on test day 91 (end of treatment) or test day 119 (end of recovery) that are not considered to be test item-related are as follows: Treatment period (1000 mg/kg bw/day): decreased absolute eosinophilic granulocytes (males; p ≤ 0.05) decreased absolute large unclassified cells (males; p ≤ 0.05) increased mean corpuscular haemoglobin (females; p ≤ 0.05)  Recovery period (1000 mg/kg bw/day): decreased reticulocytes (males; p ≤ 0.01) decreased absolute large unclassified cells (males; p ≤ 0.05)  Please also refer for results about haematology to ""Attached background material"" below."					
+39	- statistically significant differences in haematological parameters compared to the control animals on test day 91 (end of treatment) or test day 119 (end of recovery) that are not considered to be test item-related are as follows: Treatment period (1000					
 39	396	434	increased mean corpuscular haemoglobin	MP:0005561		
 						
 40	75					
-40	"- statistically significant changes in biochemical parameters in comparison to the control group listed as follows are considered to be coincidental and not related to the test item:  Treatment period: decreased total cholesterol (1000 mg/kg bw/day; males; p ≤ 0.01) decreased urea (in blood)(100, 300, and 1000 mg/kg bw/day; males; p ≤ 0.05 or p ≤ 0.01) decreased calcium (1000 mg/kg bw/day; males; p ≤ 0.05) increased chloride (300 mg/kg bw/day; males; p ≤ 0.05) increased chloride (300 and 1000 mg/kg bw/day; females; p ≤ 0.01) increased sodium (1000 mg/kg bw/day; females; p ≤ 0.05)  URINALYSIS Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: daily treatment did not lead to any test item-related changes of the urinary parameters of the male and female animals compared to the control group at the end of the treatment period and at the end of the recovery period."					
+40	"- statistically significant changes in biochemical parameters in comparison to the control group listed as follows are considered to be coincidental and not related to the test item:  Treatment period: decreased total cholesterol (1000 mg/kg bw/day; males"					
 40	202	229	decreased total cholesterol	MP:0003983		
 40	267	281	decreased urea	MP:0005566		
 40	355	372	decreased calcium	MP:0000195		
@@ -90,7 +90,7 @@
 40	531	547	increased sodium	MP:0005633		
 						
 41	76					
-41	"- statistically significant differences in the urinary parameters compared to the control animals on test day 89 or 117 that are not considered to be test item related are as follows: Treatment period: increased pH value (1000 mg/kg bw/day; females; p ≤ 0.05) increased relative urine volume (1000 mg/kg bw/day; females; p ≤ 0.05)  Recovery period: decreased specific gravity (1000 mg/kg bw/day; females; p ≤ 0.05)  NEUROBEHAVIOUR Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: no test item-related influence was noted on any of the parameters examined during the functional observation tests, on the fore- and hind limb grip strength, or on the spontaneous motility for any of the male and female animals in test week 13 and in test week 17. - individual male and female animals of the test item-treated and/or control groups revealed a score different from the normal score for the parameters urination, toe pinch, tail pinch, wire maneuver, and/or positive geotropism in test week 13 and/or in test week 17."					
+41	"- statistically significant differences in the urinary parameters compared to the control animals on test day 89 or 117 that are not considered to be test item related are as follows: Treatment period: increased pH value (1000 mg/kg bw/day; females; p ≤"					
 41	202	220	increased pH value	MP:0009349		
 41	260	291	increased relative urine volume	MP:0011431		
 						
@@ -99,7 +99,7 @@
 42	413	439	decreased body temperature	MP:0005534		
 						
 43	79					
-43	"- statistically significant differences in relative and absolute organ weights compared to the control animals on test day 91 or test day 119 that are not considered to be test item-related are as follows: Treatment period: decreased adrenal gland weight (right; absolute)(300 mg/kg bw/day; females; p ≤ 0.05) increased brain weight (relative)(1000 mg/kg bw/day; males; p ≤ 0.01) decreased liver weight (absolute)(1000 mg/kg bw/day; males; p ≤ 0.05) decreased ovary weight (right, relative)(300 mg/kg bw/day; females; p ≤ 0.05) decreased ovary weight (right, absolute)(300 mg/kg bw/day; females; p ≤ 0.05)  Recovery period: - 1000 mg/kg bw/day: increased relative weight of prostate and seminal vesicles with coagulating glands (p ≤ 0.05)  GROSS PATHOLOGY Treatment and recovery period (recovery restricted to the control group and 1000 mg/kg bw/day group): - 100, 300 or 1000 mg/kg bw/day: no test item-related changes in the organs and tissues of the animals were found after terminal sacrifice at the end of the treatment period (test day 91)."					
+43	- statistically significant differences in relative and absolute organ weights compared to the control animals on test day 91 or test day 119 that are not considered to be test item-related are as follows: Treatment period: decreased adrenal gland weight 					
 43	224	254	decreased adrenal gland weight	MP:0013308		
 43	310	332	increased brain weight	MP:0002176		
 43	380	402	decreased liver weight	MP:0003402		
@@ -1311,3 +1311,256 @@
 332	615					
 332	Increases in sodium levels were also evident for females treated with 100 mg/kg/day (P<0.05) in comparison to controls.					
 332	0	26	Increases in sodium levels	MP:0005633		
+						
+334	619					
+334	The 1000 mg/kg/day female killed in extremis during parturition, showed pale kidneys and ten dead foetuses in the right uterine horn.					
+334	72	84	pale kidneys	MP:0004969		
+						
+337	623					
+337	"HISTOPATHOLOGY: Histopathogical examinations revealed the following treatment-related effects:  LUNGS:  A greater incidence of groups of alveolar macrophages was seen among males treated with 1000 mg/kg/day; alveolar macrophages at this dose level also exhibited foamy/vacuolated cytoplasm in excess of that normally seen as spontaneous change in untreated rats."					
+337	103	157	greater incidence of alveolar macrophages	MP:0010901		
+337	263	289	foamy/vacuolated cytoplasm	MP:0010901		
+						
+338	624					
+338	Alveolar macrophages with foamy cytoplasm or granulomatous appearance were also seen for one female treated with 1000 mg/kg/day and for one male and for two females treated with 300 mg/kg/day.					
+338	0	69	Alveolar macrophages with foamy cytoplasm or granulomatous appearance	MP:0010901		
+						
+339	626					
+339	The following conditions warrant specific mention:  ADRENAL GLANDS: Cortical vacuolation was seen in a few control and treated male rats and was of no toxicological significance in this investigation.					
+339	68	88	Cortical vacuolation	MP:0000639		
+						
+340	627					
+340	BONE MARROW: Adipose infiltration of the marrow is an indicator of changes in marrow cellularity and in this study there was no difference between control and treated groups.					
+	12	20	adipose infiltration	MP:0030008		
+340	78	96	marrow cellularity	MP:0002397		
+						
+341	628					
+341	HEART: Focal myocarditis was observed in a few control and treated rats and is a common background lesion in laboratory maintained rats.					
+341	13	24	myocarditis	MP:0001856		
+						
+342	629					
+342	The severity of the condition was never greater than minimal, or one or two foci, and should not be interpreted as being indicative of any ongoing myocardial disease.					
+342	147	165	myocardial disease	MP:0001856		
+						
+343	630					
+343	KIDNEYS: Globular accumulations of eosinophilic material, as a consequence of excessive accumulation of α2-microglobulin in renal proximal tubular epithelial cells, are occasionally encountered as a spontaneous change in male rats.					
+343	9	56	Globular accumulations of eosinophilic material	MP:0005011		
+343	78	120	excessive accumulation of α2-microglobulin	MP:0011556		
+						
+344	631					
+344	Focal corticomedullary mineralisation is a commonly observed background condition among female rats and was of no toxicological significance in this investigation.					
+344	0	37	Focal corticomedullary mineralisation	MP:0011376		
+						
+345	632					
+345	LIVER: Scattered mononuclear cell foci were observed in a few control and treated rats examined in the study.					
+345	17	38	mononuclear cell foci	MP:0008248		
+						
+346	634					
+346	LUNGS: A minimal severity of bronchus associated lymphoid tissue was reported for the majority of animals examined in the study and is not indicative of respiratory disease.					
+346	9	64	minimal severity of bronchus associated lymphoid tissue	MP:0002393		
+						
+347	635					
+347	OESOPHAGUS: Inflammatory cell infiltrates in the peripheral musculature is a commonly observed change that is considered to be related to the physical trauma of gavage dosing.					
+347	12	41	Inflammatory cell infiltrates	MP:0001846		
+						
+348	636					
+348	SKELETAL MUSCLE: Mononuclear cell foci are commonly observed in the skeletal muscle of laboratory maintained rats and are of no toxicological significance at the incidences seen in this investigation.					
+348	17	38	Mononuclear cell foci	MP:0008248		
+						
+349	637					
+349	SPLEEN: Extramedullary haemopoiesis is a normal background condition in the rat spleen and the severities observed were considered to be within normal limits.					
+349	8	35	Extramedullary haemopoiesis	MP:0000240		
+						
+350	639					
+350	THYMUS: Lymphoid atrophy is frequently seen among pregnant and lactating female rats and there was no evidence of a treatment related group distribution of incidence or severity in this study.					
+350	8	24	Lymphoid atrophy	MP:0002223		
+						
+351	645					
+351	MAMMARY GLAND: Glandular hyperplasia was observed in the mammary tissue of the majority of female rats examined.					
+351	0	36	MAMMARY GLAND: Glandular hyperplasia	MP:0000630		
+						
+352	648					
+352	UTERUS: Areas of haemorrhage and fibrosis were seen in the myometrium and adjacent connective tissue of the uterus in the majority of female animals examined from control and high dose groups.					
+352	17	28	haemorrhage	MP:0001914		
+352	33	41	fibrosis	MPATH:181		
+						
+353	654					
+353	Clinical Observations - No treatment-related effects Increased salivation post-dosing on (Days 55 and 56) was observed in 2 females treated with 1000 mg/kg bw/day.					
+353	53	73	Increased salivation	MP:0000622		
+						
+354	656					
+354	Red/brown staining around the snout was observed in only one animal.					
+354	0	18	Red/brown staining	MP:0013468		
+						
+355	657					
+355	Body Weight  - There was no effect of treatment on body weight gain for either sex at dosages of 100, 300 or 1000 mg/kg bw/day.					
+355	51	67	body weight gain	MP:0012697		
+						
+356	658					
+356	Overall body weight gain for treated animals was slightly superior to control and the occasional statistically significant differences in body weight gain for treated animals were considered to reflect normal biological variation and were unrelated to treatment.					
+356	8	24	body weight gain	MP:0012697		
+356	138	154	body weight gain	MP:0012697		
+						
+357	659					
+357	Food Consumption - There was no effect of treatment on food consumption for either sex at 100, 300 or 1000 mg/kg bw/day.					
+	0	16	Food consumption 	MP:0002069		
+	55	71	food consumption 	MP:0002069		
+						
+358	660					
+358	Water Consumption  - There was no observed effect of treatment on water consumption for either sex at dosages of 100, 300 or 1000 mg/kg bw/day.					
+358	66	83	water consumption	MP:0002069		
+						
+359	663					
+359	Functional Performance Tests: Assessment of functional performance using grip strength and motor activity did not indicate any obvious effects of treatment for either at dosages of 100, 300 or 1000 mg/kg bw/day.					
+359	73	86	grip strength	MP:0001515		
+359	91	105	motor activity	MP:0001516		
+						
+360	664					
+360	Sensory Reactivity Assessments: There were no differences observed in the scores for sensory reactivity for either sex during the study.					
+360	85	103	sensory reactivity	MP:0010055		
+						
+361	665					
+361	Haematological findings - For males at 1000 mg/kg bw/day, mean corpuscular hemoglobin concentration was statistically significantly lower than control.					
+361	58	99	mean corpuscular hemoglobin concentration	MP:0005640		
+						
+362	667					
+362	"For females at 1000 mg/kg bw/day, erythrocyte count was statistically significantly lower than control; however only two individual values for these treated animals was below the historical control range."					
+362	34	51	erythrocyte count	MP:0001586		
+						
+363	669					
+363	For females at 100 mg/kg bw/day, mean corpuscular hemoglobin concentration was statistically significantly lower than control.					
+363	33	74	mean corpuscular hemoglobin concentration	MP:0005640		
+						
+364	671					
+364	Blood Chemistry  - There was considered to be no effect of treatment on blood chemistry parameters for either sex at 100, 300 or 1000 mg/kg bw/day.					
+						
+365	672					
+365	For males at 1000 mg/kg bw/day, lower albumin, total protein and albumin/globulin ratio attained statistical significance when compared with control.					
+365	32	45	lower albumin	MP:0005419		
+365	47	60	total protein	MP:0005567		
+						
+366	675					
+366	Organ Weights  - There was considered to be no effect of treatment on the organ weights measured for either sex at 100, 300 or 1000 mg/kg bw/day.					
+						
+367	676					
+367	At all dosages, absolute and body weight relative ovary weights were statistically significantly lower than control.					
+367	41	63	relative ovary weights	MP:0005158		
+						
+368	679					
+368	The ‘No Observed Effect Level’ (NOEL) for systemic toxicity was considered to be 300 mg/kg bw/day, based on irritation in the forestomach at 1000 mg/kg/day.					
+368	108	137	irritation in the forestomach	MP:0010784		
+						
+369	682					
+369	The findings were not considered to reflect true systemic toxicity NOAEL					
+						
+370	685					
+370	The LOAEC for these groups was 9000 ppm based on reduced body weight.					
+370	49	68	reduced body weight	MP:0001262		
+						
+371	686					
+371	There were no adverse effects to reproduction, therefore the NOAEC for reproduction is 9000 ppm (31680 mg/m3).					
+371	14	45	adverse effects to reproduction	MP:0001921		
+						
+372	687					
+372	reduced body weight LOAEC					
+372	0	19	reduced body weight	MP:0001262		
+						
+373	688					
+373	"Under the conditions of an OECD 422 compliant study, the test item administered at 100, 300 or 1000 mg/kg bw/day (corrected doses; corresponding to uncorrected doses of 110.46, 331.38 and 1104.61 mg/kg bw/day, respectively) by oral gavage did not cause signs of systemic toxicity and did not adversely influence the reproductive performance (gonad function, mating behavior, conception, parturition) in parental male and female Han:WIST rats."					
+373	358	373	mating behavior	MP:0008779		
+373	387	398	parturition	MP:0002907		
+						
+374	690					
+374	Based on these observations the No Observed Adverse Effect Levels (NOAEL) were determined as follows: NOAEL for systemic toxicity of male/female rats: 1000 mg/kg bw/day NOAEL for reproductive performance of male/ female rats: 1000 mg/kg bw/day NOAEL for F1 Offspring: 1000 mg/kg bw/day   NOAEL					
+374	179	203	reproductive performance	MP:0005389		
+						
+375	692					
+375	Administration of 1000 mg/kg/day resulted in increased liver weights (males and females) and minimal hepatocellular hypertrophy (males and females), that were considered to represent an adaptive change most likely induced by an increased biotransformation of the test item.					
+						
+376	694					
+376	Administration of 300 mg/kgbw/day resulted in increased liver weights (males and females).					
+376	46	69	increased liver weights	MP:0000599		
+						
+377	699					
+377	The only effect noted at this concentration was an increased liver weight NOAEL					
+377	51	73	increased liver weight			
+				MP:0000599		
+378	701					
+378	All animals appeared to be in excellent health throughout the study, and no adverse effects were found upon survival, growth, organ weights, organ : body weight ratios, and hematologic values.					
+378	149	167	body weight ratios	MP:0001259		
+						
+379	702					
+379	There were no significant gross or microscopic tissue changesw hich could be attributed to dietary treatment.					
+						
+380	704					
+380	Eight males and six females treated with 100 mg/kg bw/day also showed incidences of increased salivation from Day 44 (Females) and Day 45 (Males).					
+380	84	104	increased salivation	MP:0000622		
+						
+381	705					
+381	This resulted in a decreased utilization of feed by males fed PGE at the 10 % dietary level.					
+381	19	48	decreased utilization of feed	MP:0002069		
+						
+382	707					
+382	Excretion of nitrogen in the urine by females fed PGE at the 10% dietary level was significantly greater than the control value during both the third and ninth collection periods.					
+382	0	34	Excretion of nitrogen in the urine	MP:0011735		
+						
+383	709					
+383	It may be seen that the percentage of dietary fatty acids absorbed decreased as the level of PGE in the diet was increased.					
+383	38	76	dietary fatty acids absorbed decreased	MP:0005282		
+						
+384	713					
+384	The increased excretion of fatty acids in general, and oleic acid in particular, shows that absorption of dietary PGE was not complete.					
+384	4	38	increased excretion of fatty acids	MP:0000609		
+						
+385	717					
+385	decreased total fat absorption at 5 and 10% NOEL					
+						
+386	720					
+386	Lower body weight gains in males treated with 300 mg/kg bw/day were considered insufficient in magnitude to represent an adverse effect of treatment.					
+386	0	23	Lower body weight gains	MP:0001262		
+						
+387	721					
+387	The increased liver weights in animals of either sex treated with 300 mg/kg bw/day and in males treated with 100 mg/kg bw/day, accompanied by associated increases in hepatic enzymes, in the absence of microscopic changes in the liver do not represent an adverse effect of treatment.					
+387	0	27	The increased liver weights	MP:0000599		
+387	153	182	increases in hepatic enzymes,	MP:0000609		
+387	201	233	microscopic changes in the liver	MP:0000598		
+						
+388	726					
+388	Animals of either sex treated with 300 mg/kg bw/day had increased salivation post-dose from Day 22 (Females) and Day 23 (Males).					
+388	56	76	increased salivation	MP:0000622		
+						
+389	729					
+389	All inter and intra group differences in urination and defecation were considered to be a result of normal variation for rats of the strain and age used, and the differences were of no toxicological importance.					
+389	41	50	urination	MP:0001756		
+389	55	65	defecation	MP:0003866		
+						
+390	733					
+390	Females treated with 100 mg/kg bw/day had a statistically significant reduction in overall mobility.					
+						
+391	735					
+391	Sensory Reactivity Assessments There were no treatment-related changes in sensory reactivity.					
+391	74	92	sensory reactivity	MP:0003633		
+						
+392	736					
+392	All inter and intra group differences in sensory reactivity scores were considered to be a result of normal variation for rats of the strain and age used and were of no toxicological importance.					
+392	41	59	sensory reactivity	MP:0003633		
+						
+393	737					
+393	Body Weight Overall body weight gain was lower than control for males at 300 mg/kg bw/day.					
+393	20	36	body weight gain	MP:0001259		
+						
+394	738					
+394	Group mean body weight gains were generally lower than control throughout the treatment period with differences from control attaining statistical significance during Weeks 7, 10 and 11.					
+394	11	28	body weight gain	MP:0001259		
+						
+395	739					
+395	Whilst an effect of treatment on body weight development was apparent in males at this dose level, the magnitude of the effect observed was considered insufficient in severity to consider the effect adverse.					
+395	33	56	body weight development	MP:0001259		
+						
+396	740					
+396	No effects of treatment on body weight development were apparent for females treated with 300 mg/kg bw/day or animals of either sex treated with 10 or 100 mg/kg bw/day.					
+396	27	50	body weight development	MP:0001259		
+						
+397	741					
+397	Food Consumption There was no obvious effect of treatment on food consumption at 10, 100 or 300 mg/kg bw/day.					
+397	61	77	food consumption	MP:0002069		
