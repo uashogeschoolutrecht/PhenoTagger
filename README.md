@@ -34,23 +34,29 @@ or TF1:
 - [nltk 3.5](www.nltk.org)
 - [keras-bert 0.84.0](https://github.com/CyberZHG/keras-bert)
 
-To install all dependencies automatically, use the bash commands:
+To create the python environment:
+```
+python3.7.12 -m venv phenotagger
+```
+
+To start the python environment:
+```
+source phenotagger/bin/activate
+```
+
+
+To install all dependencies automatically (downloads tensorflow 2.7.0), use the bash commands:
 
 ```
-python -m pip install -r requirements.txt
-python src/install.py
+cd PhenoTagger_MP
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+python3 src/install.py
+```
 
-wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PhenoTagger/models.zip
-unzip models.zip
-rm models.zip
-
-wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PhenoTagger/mutation_disease.zip
-mv -i mutation_disease.zip data/mutation_disease.zip
-unzip -d data/ data/mutation_disease.zip
-rm data/mutation_disease.zip
-
-unzip -d data/ data/corpus.zip
-mkdir -p data/distant_train_data
+To download all necessary files:
+```
+bash get_files.sh
 ```
 
 ## Data and model preparation
@@ -76,7 +82,7 @@ The file format can be in BioC(xml) or PubTator(tab-delimited text file) (click 
 Example:
 
 ```
-python PhenoTagger_tagging.py -i ../tagging_data/input/ -o ../tagging_data/output/
+python3 PhenoTagger_tagging.py -i ../tagging_data/input/ -o ../tagging_data/output/
 ```
 
 
@@ -107,7 +113,7 @@ Example:
 
 ```
 cd src
-python Build_dict.py -i ../ontology/mp.obo -o ../dict/ -r MP:0000001
+python3 Build_dict.py -i ../ontology/mp.obo -o ../dict/ -r MP:0000001
 ```
 
 After the program is finished, 5 files will be generated in the output folder.
@@ -131,7 +137,7 @@ Example:
 
 ```
 cd src
-python Build_distant_corpus.py -d ../dict/ -f ../data/mutation_disease.txt -n 10000 -o ../data/distant_train_data/
+python3 Build_distant_corpus.py -d ../dict/ -f ../data/mutation_disease.txt -n 10000 -o ../data/distant_train_data/
 ```
 
 After the program is finished, 3 files will be generated in the outpath:
@@ -153,7 +159,7 @@ Example:
 
 ```
 cd src
-python PhenoTagger_training.py -t ../data/distant_train_data/distant_train.conll -d ../data/MP_annotations/ontology_training.tsv -m biobert -o ../models/
+python3 PhenoTagger_training.py -t ../data/distant_train_data/distant_train.conll -d ../data/MP_annotations/ontology_training.tsv -m biobert -o ../models/
 ```
 
 After the program is finished, 2 files will be generated in the output folder:
