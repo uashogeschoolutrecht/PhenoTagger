@@ -107,7 +107,7 @@ def build_ngram_testset_filted(conll_input,Ngram=8):
                         num_total+=1
                         if ' '.join(temp_entity) not in allentity:
                             allentity.append(' '.join(temp_entity))
-                        fout_context.write('HP:None\t'+' '.join(temp_entity)+'\n')
+                        fout_context.write('MP:None\t'+' '.join(temp_entity)+'\n')
                         fout_context.write('\n'.join(fout_context_list)+'\n\n')
                         index_dict[str(num_total)]=[i,sid,eid]
                     temp_entity=[]
@@ -138,7 +138,7 @@ def build_ngram_testset_filted(conll_input,Ngram=8):
                         num_total+=1
                         if ' '.join(temp_entity) not in allentity:
                             allentity.append(' '.join(temp_entity))
-                        fout_context.write('HP:None\t'+' '.join(temp_entity)+'\n')
+                        fout_context.write('MP:None\t'+' '.join(temp_entity)+'\n')
                         fout_context.write('\n'.join(fout_context_list)+'\n\n')
                         index_dict[str(num_total)]=[i,sid,eid]
                     temp_entity=[]
@@ -174,7 +174,7 @@ def build_ngram_testset_filted(conll_input,Ngram=8):
                         num_total+=1
                         if ' '.join(temp_entity) not in allentity:
                             allentity.append(' '.join(temp_entity))
-                        fout_context.write('HP:None\t'+' '.join(temp_entity)+'\n')
+                        fout_context.write('MP:None\t'+' '.join(temp_entity)+'\n')
                         fout_context.write('\n'.join(fout_context_list)+'\n\n')
                         index_dict[str(num_total)]=[i,sid,eid]
 
@@ -231,7 +231,7 @@ def build_all_ngram_testset_filted(conll_input,Ngram=8):
                         num_total+=1
                         if ' '.join(temp_entity) not in allentity:
                             allentity.append(' '.join(temp_entity))
-                        fout_context.write('HP:None\t'+' '.join(temp_entity)+'\n')
+                        fout_context.write('MP:None\t'+' '.join(temp_entity)+'\n')
                         fout_context.write('\n'.join(fout_context_list)+'\n\n')
                         index_dict[str(num_total)]=[i,sid,eid]
                     temp_entity=[]
@@ -262,7 +262,7 @@ def build_all_ngram_testset_filted(conll_input,Ngram=8):
                         num_total+=1
                         if ' '.join(temp_entity) not in allentity:
                             allentity.append(' '.join(temp_entity))
-                        fout_context.write('HP:None\t'+' '.join(temp_entity)+'\n')
+                        fout_context.write('MP:None\t'+' '.join(temp_entity)+'\n')
                         fout_context.write('\n'.join(fout_context_list)+'\n\n')
                         index_dict[str(num_total)]=[i,sid,eid]
                     temp_entity=[]
@@ -298,7 +298,7 @@ def build_all_ngram_testset_filted(conll_input,Ngram=8):
                         num_total+=1
                         if ' '.join(temp_entity) not in allentity:
                             allentity.append(' '.join(temp_entity))
-                        fout_context.write('HP:None\t'+' '.join(temp_entity)+'\n')
+                        fout_context.write('MP:None\t'+' '.join(temp_entity)+'\n')
                         fout_context.write('\n'.join(fout_context_list)+'\n\n')
                         index_dict[str(num_total)]=[i,sid,eid]
 
@@ -348,7 +348,7 @@ def decode_tsv(test_score, ml_input_index, ml_input_txt, T=0.8):
     for i in range(0,len(test_pre)):
         seg_pre=test_pre[i].split('\t')[0].split('|')
         #print(seg_pre,T)
-        if float(seg_pre[1])>T and seg_pre[0]!='HP:None':
+        if float(seg_pre[1])>T and seg_pre[0]!='MP:None':
             term_id=str(i+1)
             pre_result=[test_index[term_id][1],test_index[term_id][2],seg_pre[0],seg_pre[1]]
             sent_id=str(test_index[term_id][0])
