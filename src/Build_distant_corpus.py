@@ -36,7 +36,7 @@ def train_pos(hpo_obo,hpo_vocab,outpath):
     fout=open(outpath+'distant_train_pos.conll','w',encoding='utf-8')
  
     for hpoid in hpo_vocab:
-        if hpoid=='HP:None':
+        if hpoid=='MP:None':
             continue
         term_name=hpo_obo[hpoid]['name']
         temp_out=[]
@@ -132,7 +132,7 @@ def train_neg(negfile,num,hpo_dic,outpath):
 #        print(negative_text)
         temp_out=[]
         if negative_text not in hpo_dic:         
-            temp_out.append('HP:None\t'+negative_text)
+            temp_out.append('MP:None\t'+negative_text)
             token_pos = nltk.pos_tag(tokens)
             for token in token_pos:
                 lemma = lemmatizer.lemmatize(token[0], get_wordnet_pos(token[1])) 

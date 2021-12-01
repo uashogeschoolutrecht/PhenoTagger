@@ -36,12 +36,12 @@ or TF1:
 
 To create the python environment:
 ```
-python3.7.12 -m venv phenotagger
+python3.7.12 -m venv phenotagger_venv
 ```
 
 To start the python environment:
 ```
-source phenotagger/bin/activate
+source phenotagger_venv/bin/activate
 ```
 
 

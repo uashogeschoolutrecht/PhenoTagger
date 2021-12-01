@@ -40,7 +40,7 @@ def get_all_child(all_obo,root_node):
             continue
         is_flag=0
         for line in lines:
-            if line.startswith('id: ')>0: #[0:len('id: HP:')]=='id: HP:':
+            if line.startswith('id: ')>0: #[0:len('id: MP:')]=='id: MP:':
                 hpoid=line[len('id: '):]
                 temp_id.append(hpoid)
             elif line.startswith('is_a: ')>0:#[0:len('is_a: ')]=='is_a: ':
@@ -105,7 +105,7 @@ def build_dict(hpofile, outpath,rootnode):
     #print(len(all_nodes))
     for ele in all_nodes:
         fout_nodes.write(ele+'\n')
-    fout_nodes.write('HP:None'+'\n') #neg label
+    fout_nodes.write('MP:None'+'\n') #neg label
     fout_nodes.close()
     
     fout_obo=open(outpath+'obo.json','w',encoding='utf-8')
