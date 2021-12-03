@@ -9,9 +9,12 @@ def fix_formatting(file = "../data/MP_annotations/ontology_training.tsv"):
     with open(file, "r", encoding='utf-8') as myfile:
         data = myfile.read()
     
-    # Remove all tabs followed by a newline
-    newdata = re.sub(pattern, "", data)
+    # If there are any tabs followed by a newline
+    if len(re.findall(pattern, data)) > 0:
 
-    # Overwrite file
-    with open(file, "w", encoding='utf-8') as myfile:
-        myfile.write(newdata)
+        # Remove all tabs followed by a newline
+        newdata = re.sub(pattern, "", data)
+
+        # Overwrite file
+        with open(file, "w", encoding='utf-8') as myfile:
+            myfile.write(newdata)

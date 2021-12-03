@@ -40,7 +40,7 @@ The consistency of all animals' faeces was normal throughout the treatment perio
 88	94	deaths	MP:0002083
 
 41
-Lastly, another female 1000 mg/kg bw/day dose animal revealed areas with thin fur (size approximately 10 mm Ã— 30 mm) on both forelimbs in test weeks 10 to 13.
+Lastly, another female 1000 mg/kg bw/day dose animal revealed areas with thin fur (size approximately 10 mm × 30 mm) on both forelimbs in test weeks 10 to 13.
 74	81	thin fur	MP:0000416
 
 44
@@ -90,7 +90,7 @@ This effect is considered to be due to the reduced body weight of these male ani
 531	547	increased sodium	MP:0005633
 
 76
-"- statistically significant differences in the urinary parameters compared to the control animals on test day 89 or 117 that are not considered to be test item related are as follows: Treatment period: increased pH value (1000 mg/kg bw/day; females; p â‰¤"
+"- statistically significant differences in the urinary parameters compared to the control animals on test day 89 or 117 that are not considered to be test item related are as follows: Treatment period: increased pH value (1000 mg/kg bw/day; females; p ≤"
 202	220	increased pH value	MP:0009349
 260	291	increased relative urine volume	MP:0011431
 
@@ -331,7 +331,7 @@ Effects seen at doses higher than 0.2% included increased liver enzyme activity 
 242	264	lower food consumption	MP:0011940
 
 203
-CLINICAL SIGNS AND MORTALITY NoÂ animalsÂ diedÂ duringÂ theÂ study and clinical signs were unremarkable.
+CLINICAL SIGNS AND MORTALITY No animals died during the study and clinical signs were unremarkable.
 40	44	died	MP:0002083
 
 204
@@ -339,7 +339,7 @@ BODY WEIGHT AND WEIGHT GAIN Reduced at 1% and 5%  FOOD CONSUMPTION AND COMPOUND 
 128	162	water consumption was also reduced	MP:0011942
 
 206
-"White blood cell count was significantly increased in high-dose femalesÂ (100/mm3:Â controlÂ 47Â (SD +-Â 12.2);Â topÂ doseÂ 73.2Â (SD +-16.2))."
+"White blood cell count was significantly increased in high-dose females (100/mm3: control 47 (SD +- 12.2); top dose 73.2 (SD +-16.2))."
 0	50	White blood cell count was significantly increased	MP:0000218
 
 208
@@ -488,7 +488,7 @@ Treatment with 1000 mg cobalt powder/kg bw/day caused the premature death of nin
 58	73	premature death	MP:0002083
 
 314
-From 30 mg cobalt powder/kg bw/day onwards, the mean litter weight of pups was slightly reduced in a dose-related way (not significant at p â‰¤ 0.01), significant only at 300 mg cobalt powder/kg bw/day.
+From 30 mg cobalt powder/kg bw/day onwards, the mean litter weight of pups was slightly reduced in a dose-related way (not significant at p ≤ 0.01), significant only at 300 mg cobalt powder/kg bw/day.
 48	66	mean litter weight	MP:0009674
 
 315
@@ -617,7 +617,7 @@ For male HD animals, an attenuated body weight gain was observed during the pre-
 24	51	attenuated body weight gain	MP:0001262
 
 338
-BODY WEIGHT AND WEIGHT GAIN (1000 mg/kg bw/day group was excluded from statistical comparison due to a high mortality rate) - males: the body weight in 300 and 1000 mg cobalt powder/kg bw/day groups was reduced from test week 2 onwards, being 13% (statistically significant at p â‰¤ 0.01) or 16% below the control value in test week 3 (mating period).
+BODY WEIGHT AND WEIGHT GAIN (1000 mg/kg bw/day group was excluded from statistical comparison due to a high mortality rate) - males: the body weight in 300 and 1000 mg cobalt powder/kg bw/day groups was reduced from test week 2 onwards, being 13% (statistically significant at p ≤ 0.01) or 16% below the control value in test week 3 (mating period).
 103	117	high mortality	MP:0008770
 137	148	body weight	MP:0001262
 
@@ -630,7 +630,7 @@ The body weight of the only surviving high dose male rat (1000 mg cobalt powder/
 4	15	body weight	MP:0001262
 
 341
-- females: the body weight of the female rats in the 300 mg cobalt powder/kg bw/day group was below the control on gestation day 20 (by 11%) and on lactation day 1 (by 21%, statistically significant at p â‰¤ 0.01).
+- females: the body weight of the female rats in the 300 mg cobalt powder/kg bw/day group was below the control on gestation day 20 (by 11%) and on lactation day 1 (by 21%, statistically significant at p ≤ 0.01).
 15	26	body weight	MP:0012699
 
 342
@@ -894,7 +894,7 @@ Since the decreased food consumption of the HD animals correlates with an attenu
 74	101	attenuated body weight gain	MP:0010182
 
 428
-Haematology and Coagulation At the end of the treatment period a slight tendency towards an increased amount of white blood cells could be observed in male HD animals (6.04 x 103/Âµl) when compared to C animals (4.68 x 103/Âµl).
+Haematology and Coagulation At the end of the treatment period a slight tendency towards an increased amount of white blood cells could be observed in male HD animals (6.04 x 103/µl) when compared to C animals (4.68 x 103/µl).
 92	129	increased amount of white blood cells	MP:0000218
 
 431
@@ -1343,9 +1343,9 @@ The severity of the condition was never greater than minimal, or one or two foci
 147	165	myocardial disease	MP:0001856
 
 630
-KIDNEYS: Globular accumulations of eosinophilic material, as a consequence of excessive accumulation of Î±2-microglobulin in renal proximal tubular epithelial cells, are occasionally encountered as a spontaneous change in male rats.
+KIDNEYS: Globular accumulations of eosinophilic material, as a consequence of excessive accumulation of α2-microglobulin in renal proximal tubular epithelial cells, are occasionally encountered as a spontaneous change in male rats.
 9	56	Globular accumulations of eosinophilic material	MP:0005011
-78	120	excessive accumulation of Î±2-microglobulin	MP:0011556
+78	120	excessive accumulation of α2-microglobulin	MP:0011556
 
 631
 Focal corticomedullary mineralisation is a commonly observed background condition among female rats and was of no toxicological significance in this investigation.
@@ -1447,7 +1447,7 @@ At all dosages, absolute and body weight relative ovary weights were statistical
 41	63	relative ovary weights	MP:0005158
 
 679
-The â€˜No Observed Effect Levelâ€™ (NOEL) for systemic toxicity was considered to be 300 mg/kg bw/day, based on irritation in the forestomach at 1000 mg/kg/day.
+The ‘No Observed Effect Level’ (NOEL) for systemic toxicity was considered to be 300 mg/kg bw/day, based on irritation in the forestomach at 1000 mg/kg/day.
 108	137	irritation in the forestomach	MP:0010784
 
 682
@@ -1483,14 +1483,11 @@ Administration of 300 mg/kgbw/day resulted in increased liver weights (males and
 
 699
 The only effect noted at this concentration was an increased liver weight NOAEL
-51	73	increased liver weight
-			MP:0000599
+51	73	increased liver weight	MP:0000599
+
 701
 All animals appeared to be in excellent health throughout the study, and no adverse effects were found upon survival, growth, organ weights, organ : body weight ratios, and hematologic values.
 149	167	body weight ratios	MP:0001259
-
-702
-There were no significant gross or microscopic tissue changesw hich could be attributed to dietary treatment.
 
 704
 Eight males and six females treated with 100 mg/kg bw/day also showed incidences of increased salivation from Day 44 (Females) and Day 45 (Males).
@@ -1512,9 +1509,6 @@ It may be seen that the percentage of dietary fatty acids absorbed decreased as 
 The increased excretion of fatty acids in general, and oleic acid in particular, shows that absorption of dietary PGE was not complete.
 4	38	increased excretion of fatty acids	MP:0000609
 
-717
-decreased total fat absorption at 5 and 10% NOEL
-
 720
 Lower body weight gains in males treated with 300 mg/kg bw/day were considered insufficient in magnitude to represent an adverse effect of treatment.
 0	23	Lower body weight gains	MP:0001262
@@ -1533,9 +1527,6 @@ Animals of either sex treated with 300 mg/kg bw/day had increased salivation pos
 All inter and intra group differences in urination and defecation were considered to be a result of normal variation for rats of the strain and age used, and the differences were of no toxicological importance.
 41	50	urination	MP:0001756
 55	65	defecation	MP:0003866
-
-733
-Females treated with 100 mg/kg bw/day had a statistically significant reduction in overall mobility.
 
 735
 Sensory Reactivity Assessments There were no treatment-related changes in sensory reactivity.

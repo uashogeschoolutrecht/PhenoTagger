@@ -17,6 +17,9 @@ import os
 import time
 import tensorflow as tf
 
+#os.chdir(".\\src\\")
+#os.getcwd()
+
 def run_dev(files,biotag_dic,nn_model):
     
     fin_dev=open(files['devfile'],'r',encoding='utf-8')
@@ -25,7 +28,7 @@ def run_dev(files,biotag_dic,nn_model):
     dev_out=open(files['devout'],'w',encoding='utf-8')
     for doc_dev in all_dev:
         lines=doc_dev.split('\n')
-        pmid = lines[0]
+        pmid=lines[0]
         dev_result=bioTag(lines[1],biotag_dic,nn_model,Threshold=0.95)
         dev_out.write(pmid+'\n'+lines[1]+'\n')
         for ele in dev_result:

@@ -1483,14 +1483,11 @@ Administration of 300 mg/kgbw/day resulted in increased liver weights (males and
 					
 699					
 The only effect noted at this concentration was an increased liver weight NOAEL					
-51	73	increased liver weight			
-			MP:0000599		
+51	73	increased liver weight	MP:0000599		
+					
 701					
 All animals appeared to be in excellent health throughout the study, and no adverse effects were found upon survival, growth, organ weights, organ : body weight ratios, and hematologic values.					
 149	167	body weight ratios	MP:0001259		
-					
-702					
-There were no significant gross or microscopic tissue changesw hich could be attributed to dietary treatment.					
 					
 704					
 Eight males and six females treated with 100 mg/kg bw/day also showed incidences of increased salivation from Day 44 (Females) and Day 45 (Males).					
@@ -1512,9 +1509,6 @@ It may be seen that the percentage of dietary fatty acids absorbed decreased as 
 The increased excretion of fatty acids in general, and oleic acid in particular, shows that absorption of dietary PGE was not complete.					
 4	38	increased excretion of fatty acids	MP:0000609		
 					
-717					
-decreased total fat absorption at 5 and 10% NOEL					
-					
 720					
 Lower body weight gains in males treated with 300 mg/kg bw/day were considered insufficient in magnitude to represent an adverse effect of treatment.					
 0	23	Lower body weight gains	MP:0001262		
@@ -1533,9 +1527,6 @@ Animals of either sex treated with 300 mg/kg bw/day had increased salivation pos
 All inter and intra group differences in urination and defecation were considered to be a result of normal variation for rats of the strain and age used, and the differences were of no toxicological importance.					
 41	50	urination	MP:0001756		
 55	65	defecation	MP:0003866		
-					
-733					
-Females treated with 100 mg/kg bw/day had a statistically significant reduction in overall mobility.					
 					
 735					
 Sensory Reactivity Assessments There were no treatment-related changes in sensory reactivity.					
