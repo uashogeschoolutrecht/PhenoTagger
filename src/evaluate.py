@@ -29,8 +29,8 @@ def alt_hpo():
                 else:
                     print('alt_id:',ele,'old:',alt_hpoid[ele])
     json.dump(alt_hpoid, fout ,indent=2)
+
 def document_metric(pre_result, gold_result):
-   
    
     pre_num=0
     gold_num=0
@@ -172,9 +172,7 @@ def mention_metric_new(pre_result, gold_result):
                         NEN_true_num_Rr+=1    
                         break
             if ner_flag==1:
-                NER_true_num_Rr+=1
-        
-       
+                NER_true_num_Rr+=1       
                 
     if pre_num==0 and gold_num==0:
         NER_P_s,NER_R_s,NER_F_s=1,1,1
@@ -210,7 +208,7 @@ def mention_metric_new(pre_result, gold_result):
         NEN_F_s=2*NEN_P_s*NEN_R_s/(NEN_P_s+NEN_R_s)
         NEN_F_r=2*NEN_P_r*NEN_R_r/(NEN_P_r+NEN_R_r)
         
-    print('......memtion level evaluation:......')
+    print('......mention level evaluation:......')
     print(gold_num,pre_num)
     print('NER P_s=%.5f, R_s=%.5f, F_s=%.5f' %(NER_P_s,NER_R_s,NER_F_s))
     print('NER P_r=%.5f, R_r=%.5f, F_r=%.5f' %(NER_P_r,NER_R_r,NER_F_r))  

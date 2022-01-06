@@ -68,7 +68,7 @@ bash get_files.sh
 Command to format annotations:
 ```
 cd src
-python3 format_annotations("../data/MP_annotations/ontology_training.tsv")
+python3 format_annotations("../data/MP_annotations/echa_pubmed_mp_annot.tsv")
 ```
 
 ## Tagging free text with PhenoTagger
@@ -165,7 +165,7 @@ Example:
 
 ```
 cd src
-python3 PhenoTagger_training.py -t ../data/distant_train_data/distant_train.conll -d ../data/MP_annotations/ontology_training.tsv -m biobert -o ../models/
+python3 PhenoTagger_training.py -t ../data/distant_train_data/distant_train.conll -d ../data/MP_annotations/echa_pubmed_mp_annot.tsv -m biobert -o ../models/
 ```
 
 After the program is finished, 2 files will be generated in the output folder:
