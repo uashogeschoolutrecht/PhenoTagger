@@ -2,3 +2,4 @@ models/*
 data/mutation_disease.txt
 data/corpus/*
 src/__pycache__/*
+.Rproj.user
