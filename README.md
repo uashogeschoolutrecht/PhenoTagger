@@ -135,7 +135,7 @@ After the program is finished, 5 files will be generated in the output folder.
 The file requires 4 parameters:
 
 - --dict, -d, help="the input folder of the ontology dictionary"
-- --fileneg, -f, help="the text file used to generate the negatives" (You can use our negative text ["mutation_disease.txt"](https://ftp.ncbi.nlm.nih.gov/pub/lu/PhenoTagger/mutation_disease.zip) )
+- --fileneg, -f, help="the text file used to generate the negatives" (You can use our negative text ["mutation_disease.txt"](https://ftp.ncbi.nlm.nih.gov/pub/lu/PhenoTagger/mutation_disease.zip). The negative set for MP ontology is at data/negatives_mp.txt)
 - --negnum, -n, help="the number of negatives, we suggest that the number is the same with the positives."
 - --output, -o, help="the output folder of the distantly-supervised training dataset"
 
@@ -232,6 +232,18 @@ The following Table shows the results of PhenoTagger with the CNN and BioBERT mo
 
 Here, *h*, *m*, *s* denotes hour, minute and second, respectively. 
 
+## Training performance on Mammalian phenotypes
+<a name="performance2"></a>
+
+The following table shows the mention-level strict NEN results of PhenoTagger training on MP ontology on the last epoch of training. For full results see the /logs folder.
+
+ECHA training data is in data/MP_annotations/ontology_training.tsv, ECHA_Pubmed in data/MP_annotations/echa_pubmed_mp_annot.tsv and our own negatives in data/negatives_mp.txt
+
+| Method | Men-P | Men-R | Men-F1 | 
+| ----------- | ---- | ---- | ---- |
+| PhenoTagger BioBERT ECHA | 0.492 | 0.155 | 0.236 | 
+| PhenoTagger BioBERT ECHA Pubmed | 0.495 | 0.144 | 0.223 | 
+| PhenoTagger BioBERT Pubmed own negatives | 0.492 | 0.124 | 0.198 | 
 
 ## Citing PhenoTagger
 <a name="citing"></a>
@@ -246,6 +258,7 @@ If you're using PhenoTagger, please cite:
 
 This research is supported by the Intramural Research Programs of the National Institutes of Health, National Library of Medicine.
 Thanks to Dr. Chih-Hsuan Wei for his help with Web APIs.
+The retraining on the Mammalian Phenotype Ontology is supported by the DARTpaths Crack-IT challenge funded by the NC3RS.
 
 
 ## Disclaimer

@@ -1,0 +1,782 @@
+python3 PhenoTagger_training.py -t ../data/distant_train_data/d biobert -o ../models/../data/MP_annotations/echa_pubmed_mp_annot.tsv -m 
+2022-01-12 08:20:46.859749: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/lib/R/lib::/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server
+2022-01-12 08:20:46.859794: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-01-12 08:20:47.822925: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/lib/R/lib::/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server
+2022-01-12 08:20:47.822968: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2022-01-12 08:20:47.822993: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (rsc-instance): /proc/driver/nvidia/version does not exist
+2022-01-12 08:20:47.823158: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-12 08:20:47.831182: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 1996250000 Hz
+2022-01-12 08:20:47.832943: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d695a91a70 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-01-12 08:20:47.832970: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Model: "functional_5"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            [(None, 64)]         0                                            
+__________________________________________________________________________________________________
+input_2 (InputLayer)            [(None, 64)]         0                                            
+__________________________________________________________________________________________________
+functional_3 (Functional)       (None, 64, 768)      107375616   input_1[0][0]                    
+                                                                 input_2[0][0]                    
+__________________________________________________________________________________________________
+lambda (Lambda)                 (None, 768)          0           functional_3[0][0]               
+__________________________________________________________________________________________________
+dense (Dense)                   (None, 13311)        10236159    lambda[0][0]                     
+==================================================================================================
+Total params: 117,611,775
+Trainable params: 117,611,775
+Non-trainable params: 0
+__________________________________________________________________________________________________
+loading dict!
+Dic_len: 55788
+load dic done!
+epoch: 0
+1037/1037 [==============================] - 2859s 3s/step - loss: 8.2111 - categorical_accuracy: 0.1486 
+epoch: 1
+1037/1037 [==============================] - 2815s 3s/step - loss: 7.6354 - categorical_accuracy: 0.1513
+epoch: 2
+1037/1037 [==============================] - 2811s 3s/step - loss: 7.2929 - categorical_accuracy: 0.1554
+epoch: 3
+1037/1037 [==============================] - 2808s 3s/step - loss: 6.9703 - categorical_accuracy: 0.1730
+epoch: 4
+1037/1037 [==============================] - 2794s 3s/step - loss: 6.6518 - categorical_accuracy: 0.2092
+epoch: 5
+1037/1037 [==============================] - 2788s 3s/step - loss: 6.3340 - categorical_accuracy: 0.2559
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+max_dev_f= 0.1799882882466076 epoch: 5
+epoch: 6
+1037/1037 [==============================] - 2788s 3s/step - loss: 6.0179 - categorical_accuracy: 0.3070
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 7
+1037/1037 [==============================] - 2796s 3s/step - loss: 5.7032 - categorical_accuracy: 0.3550
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 8
+1037/1037 [==============================] - 2785s 3s/step - loss: 5.3932 - categorical_accuracy: 0.3963
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 9
+1037/1037 [==============================] - 2789s 3s/step - loss: 5.0853 - categorical_accuracy: 0.4378
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 10
+1037/1037 [==============================] - 2790s 3s/step - loss: 4.7835 - categorical_accuracy: 0.4747
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 11
+1037/1037 [==============================] - 2795s 3s/step - loss: 4.4871 - categorical_accuracy: 0.5108
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 12
+1037/1037 [==============================] - 2789s 3s/step - loss: 4.2001 - categorical_accuracy: 0.5468
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 13
+1037/1037 [==============================] - 2790s 3s/step - loss: 3.9219 - categorical_accuracy: 0.5792
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 14
+1037/1037 [==============================] - 2788s 3s/step - loss: 3.6538 - categorical_accuracy: 0.6103
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 15
+1037/1037 [==============================] - 2790s 3s/step - loss: 3.3975 - categorical_accuracy: 0.6389
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 16
+1037/1037 [==============================] - 2794s 3s/step - loss: 3.1523 - categorical_accuracy: 0.6658
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 17
+1037/1037 [==============================] - 2789s 3s/step - loss: 2.9198 - categorical_accuracy: 0.6907
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 137 88
+miP=0.64234, miR=0.12662, miF=0.21154
+maP=0.18652, maR=0.14108, maF=0.16065
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 144
+NER P_s=0.62500, R_s=0.12016, F_s=0.20157
+NER P_r=0.84722, R_r=0.16555, F_r=0.27698
+NEN P_s=0.53472, R_s=0.10280, F_s=0.17245
+NEN P_r=0.61806, R_r=0.11883, F_r=0.19933
+epoch: 18
+1037/1037 [==============================] - 2787s 3s/step - loss: 2.6992 - categorical_accuracy: 0.7136
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+max_dev_f= 0.18114806681176515 epoch: 18
+epoch: 19
+1037/1037 [==============================] - 2788s 3s/step - loss: 2.4913 - categorical_accuracy: 0.7373
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+epoch: 20
+1037/1037 [==============================] - 2783s 3s/step - loss: 2.2970 - categorical_accuracy: 0.7572
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+epoch: 21
+1037/1037 [==============================] - 2791s 3s/step - loss: 2.1131 - categorical_accuracy: 0.7790
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+epoch: 22
+1037/1037 [==============================] - 2786s 3s/step - loss: 1.9406 - categorical_accuracy: 0.7978
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+epoch: 23
+1037/1037 [==============================] - 2780s 3s/step - loss: 1.7798 - categorical_accuracy: 0.8176
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+epoch: 24
+1037/1037 [==============================] - 2782s 3s/step - loss: 1.6293 - categorical_accuracy: 0.8361
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 138 89
+miP=0.64493, miR=0.12806, miF=0.21369
+maP=0.18661, maR=0.14150, maF=0.16095
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 145
+NER P_s=0.62759, R_s=0.12150, F_s=0.20358
+NER P_r=0.84828, R_r=0.16689, F_r=0.27891
+NEN P_s=0.53793, R_s=0.10414, F_s=0.17450
+NEN P_r=0.62069, R_r=0.12016, F_r=0.20134
+epoch: 25
+1037/1037 [==============================] - 2785s 3s/step - loss: 1.4884 - categorical_accuracy: 0.8521
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 140 90
+miP=0.64286, miR=0.12950, miF=0.21557
+maP=0.18915, maR=0.14201, maF=0.16222
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 147
+NER P_s=0.62585, R_s=0.12283, F_s=0.20536
+NER P_r=0.85034, R_r=0.17089, F_r=0.28459
+NEN P_s=0.53741, R_s=0.10547, F_s=0.17634
+NEN P_r=0.61905, R_r=0.12150, F_r=0.20312
+max_dev_f= 0.18267370460243382 epoch: 25
+epoch: 26
+1037/1037 [==============================] - 2783s 3s/step - loss: 1.3587 - categorical_accuracy: 0.8670
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 145 93
+miP=0.64138, miR=0.13381, miF=0.22143
+maP=0.19422, maR=0.14759, maF=0.16773
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 152
+NER P_s=0.61842, R_s=0.12550, F_s=0.20866
+NER P_r=0.85526, R_r=0.17891, F_r=0.29591
+NEN P_s=0.53289, R_s=0.10814, F_s=0.17980
+NEN P_r=0.61842, R_r=0.12550, F_r=0.20866
+max_dev_f= 0.18819183125275124 epoch: 26
+epoch: 27
+1037/1037 [==============================] - 2784s 3s/step - loss: 1.2384 - categorical_accuracy: 0.8802
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 147 93
+miP=0.63265, miR=0.13381, miF=0.22090
+maP=0.19422, maR=0.14759, maF=0.16773
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 154
+NER P_s=0.62338, R_s=0.12817, F_s=0.21262
+NER P_r=0.85714, R_r=0.18291, F_r=0.30149
+NEN P_s=0.52597, R_s=0.10814, F_s=0.17940
+NEN P_r=0.61039, R_r=0.12550, F_r=0.20819
+epoch: 28
+1037/1037 [==============================] - 2786s 3s/step - loss: 1.1294 - categorical_accuracy: 0.8915
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 152 98
+miP=0.64474, miR=0.14101, miF=0.23140
+maP=0.20184, maR=0.15185, maF=0.17331
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 159
+NER P_s=0.62893, R_s=0.13351, F_s=0.22026
+NER P_r=0.86164, R_r=0.19226, F_r=0.31437
+NEN P_s=0.53459, R_s=0.11348, F_s=0.18722
+NEN P_r=0.62264, R_r=0.13218, F_r=0.21806
+max_dev_f= 0.1956851657890442 epoch: 28
+epoch: 29
+1037/1037 [==============================] - 2791s 3s/step - loss: 1.0262 - categorical_accuracy: 0.9026
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 156 101
+miP=0.64744, miR=0.14532, miF=0.23737
+maP=0.20691, maR=0.15574, maF=0.17771
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 163
+NER P_s=0.63190, R_s=0.13752, F_s=0.22588
+NER P_r=0.86503, R_r=0.19760, F_r=0.32171
+NEN P_s=0.53988, R_s=0.11749, F_s=0.19298
+NEN P_r=0.62577, R_r=0.13618, F_r=0.22368
+max_dev_f= 0.20069947600749016 epoch: 29
+epoch: 30
+1037/1037 [==============================] - 2789s 3s/step - loss: 0.9318 - categorical_accuracy: 0.9130
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 155 101
+miP=0.65161, miR=0.14532, miF=0.23765
+maP=0.20691, maR=0.15574, maF=0.17771
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 162
+NER P_s=0.63580, R_s=0.13752, F_s=0.22613
+NER P_r=0.86420, R_r=0.19626, F_r=0.31988
+NEN P_s=0.54321, R_s=0.11749, F_s=0.19319
+NEN P_r=0.62963, R_r=0.13618, F_r=0.22393
+max_dev_f= 0.20082224450942554 epoch: 30
+epoch: 31
+1037/1037 [==============================] - 2786s 3s/step - loss: 0.8455 - categorical_accuracy: 0.9219
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 161 105
+miP=0.65217, miR=0.15108, miF=0.24533
+maP=0.21707, maR=0.16462, maF=0.18724
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 168
+NER P_s=0.63690, R_s=0.14286, F_s=0.23337
+NER P_r=0.86310, R_r=0.20427, F_r=0.33036
+NEN P_s=0.54762, R_s=0.12283, F_s=0.20065
+NEN P_r=0.63095, R_r=0.14152, F_r=0.23119
+max_dev_f= 0.209214493402271 epoch: 31
+epoch: 32
+1037/1037 [==============================] - 2783s 3s/step - loss: 0.7678 - categorical_accuracy: 0.9315
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 163 105
+miP=0.64417, miR=0.15108, miF=0.24476
+maP=0.21707, maR=0.16462, maF=0.18724
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 170
+NER P_s=0.63529, R_s=0.14419, F_s=0.23504
+NER P_r=0.86471, R_r=0.20694, F_r=0.33396
+NEN P_s=0.54118, R_s=0.12283, F_s=0.20022
+NEN P_r=0.62353, R_r=0.14152, F_r=0.23069
+epoch: 33
+1037/1037 [==============================] - 2783s 3s/step - loss: 0.6932 - categorical_accuracy: 0.9396
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 162 105
+miP=0.64815, miR=0.15108, miF=0.24504
+maP=0.21707, maR=0.16674, maF=0.18860
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 169
+NER P_s=0.64497, R_s=0.14553, F_s=0.23747
+NER P_r=0.86982, R_r=0.20561, F_r=0.33260
+NEN P_s=0.55030, R_s=0.12417, F_s=0.20261
+NEN P_r=0.62722, R_r=0.14152, F_r=0.23094
+max_dev_f= 0.2097688578511792 epoch: 33
+epoch: 34
+1037/1037 [==============================] - 2791s 3s/step - loss: 0.6262 - categorical_accuracy: 0.9470
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 164 106
+miP=0.64634, miR=0.15252, miF=0.24680
+maP=0.21960, maR=0.16716, maF=0.18983
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 171
+NER P_s=0.63743, R_s=0.14553, F_s=0.23696
+NER P_r=0.86550, R_r=0.20828, F_r=0.33576
+NEN P_s=0.54386, R_s=0.12417, F_s=0.20217
+NEN P_r=0.62573, R_r=0.14286, F_r=0.23261
+max_dev_f= 0.2112171914036688 epoch: 34
+epoch: 35
+1037/1037 [==============================] - 2777s 3s/step - loss: 0.5650 - categorical_accuracy: 0.9536
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 173 108
+miP=0.62428, miR=0.15540, miF=0.24885
+maP=0.22468, maR=0.16970, maF=0.19336
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 182
+NER P_s=0.63187, R_s=0.15354, F_s=0.24705
+NER P_r=0.86264, R_r=0.22029, F_r=0.35096
+NEN P_s=0.52198, R_s=0.12684, F_s=0.20408
+NEN P_r=0.59890, R_r=0.14553, F_r=0.23416
+max_dev_f= 0.21375629154388676 epoch: 35
+epoch: 36
+1037/1037 [==============================] - 2782s 3s/step - loss: 0.5088 - categorical_accuracy: 0.9585
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 174 109
+miP=0.62644, miR=0.15683, miF=0.25086
+maP=0.22595, maR=0.17097, maF=0.19465
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 183
+NER P_s=0.63388, R_s=0.15487, F_s=0.24893
+NER P_r=0.86339, R_r=0.22163, F_r=0.35272
+NEN P_s=0.52459, R_s=0.12817, F_s=0.20601
+NEN P_r=0.60109, R_r=0.14686, F_r=0.23605
+max_dev_f= 0.21535040422409735 epoch: 36
+epoch: 37
+1037/1037 [==============================] - 2783s 3s/step - loss: 0.4577 - categorical_accuracy: 0.9637
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 175 110
+miP=0.62857, miR=0.15827, miF=0.25287
+maP=0.22595, maR=0.17181, maF=0.19520
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 184
+NER P_s=0.63043, R_s=0.15487, F_s=0.24866
+NER P_r=0.86413, R_r=0.22296, F_r=0.35447
+NEN P_s=0.52174, R_s=0.12817, F_s=0.20579
+NEN P_r=0.60326, R_r=0.14820, F_r=0.23794
+max_dev_f= 0.2165692931551948 epoch: 37
+epoch: 38
+1037/1037 [==============================] - 2782s 3s/step - loss: 0.4101 - categorical_accuracy: 0.9678
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 181 113
+miP=0.62431, miR=0.16259, miF=0.25799
+maP=0.23018, maR=0.17816, maF=0.20085
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 189
+NER P_s=0.64021, R_s=0.16155, F_s=0.25800
+NER P_r=0.87302, R_r=0.22563, F_r=0.35859
+NEN P_s=0.51852, R_s=0.13084, F_s=0.20896
+NEN P_r=0.60317, R_r=0.15220, F_r=0.24307
+max_dev_f= 0.22196240960137625 epoch: 38
+epoch: 39
+1037/1037 [==============================] - 2780s 3s/step - loss: 0.3674 - categorical_accuracy: 0.9720
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 191 119
+miP=0.62304, miR=0.17122, miF=0.26862
+maP=0.23526, maR=0.18958, maF=0.20996
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 200
+NER P_s=0.62500, R_s=0.16689, F_s=0.26344
+NER P_r=0.87500, R_r=0.23364, F_r=0.36881
+NEN P_s=0.51000, R_s=0.13618, F_s=0.21496
+NEN P_r=0.60000, R_r=0.16021, F_r=0.25290
+max_dev_f= 0.2314296226520001 epoch: 39
+epoch: 40
+1037/1037 [==============================] - 2788s 3s/step - loss: 0.3295 - categorical_accuracy: 0.9745
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 191 118
+miP=0.61780, miR=0.16978, miF=0.26637
+maP=0.23399, maR=0.18535, maF=0.20685
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 200
+NER P_s=0.63000, R_s=0.16822, F_s=0.26554
+NER P_r=0.87500, R_r=0.23498, F_r=0.37047
+NEN P_s=0.51000, R_s=0.13618, F_s=0.21496
+NEN P_r=0.59500, R_r=0.15888, F_r=0.25079
+epoch: 41
+1037/1037 [==============================] - 2784s 3s/step - loss: 0.2942 - categorical_accuracy: 0.9779
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 194 119
+miP=0.61340, miR=0.17122, miF=0.26772
+maP=0.23652, maR=0.18704, maF=0.20889
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 203
+NER P_s=0.63054, R_s=0.17089, F_s=0.26891
+NER P_r=0.87192, R_r=0.23899, F_r=0.37515
+NEN P_s=0.51232, R_s=0.13885, F_s=0.21849
+NEN P_r=0.59113, R_r=0.16021, F_r=0.25210
+epoch: 42
+1037/1037 [==============================] - 2786s 3s/step - loss: 0.2626 - categorical_accuracy: 0.9805
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 199 121
+miP=0.60804, miR=0.17410, miF=0.27069
+maP=0.24160, maR=0.19246, maF=0.21425
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 208
+NER P_s=0.62500, R_s=0.17356, F_s=0.27168
+NER P_r=0.87500, R_r=0.24032, F_r=0.37708
+NEN P_s=0.49519, R_s=0.13752, F_s=0.21526
+NEN P_r=0.58654, R_r=0.16288, F_r=0.25496
+max_dev_f= 0.23460450312954875 epoch: 42
+epoch: 43
+1037/1037 [==============================] - 2782s 3s/step - loss: 0.2346 - categorical_accuracy: 0.9837
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 203 123
+miP=0.60591, miR=0.17698, miF=0.27394
+maP=0.24414, maR=0.19550, maF=0.21713
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 212
+NER P_s=0.61792, R_s=0.17490, F_s=0.27263
+NER P_r=0.87264, R_r=0.24433, F_r=0.38176
+NEN P_s=0.49057, R_s=0.13885, F_s=0.21644
+NEN P_r=0.58491, R_r=0.16555, F_r=0.25806
+max_dev_f= 0.23759687957915585 epoch: 43
+epoch: 44
+1037/1037 [==============================] - 2781s 3s/step - loss: 0.2090 - categorical_accuracy: 0.9860
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 203 126
+miP=0.62069, miR=0.18129, miF=0.28062
+maP=0.24921, maR=0.19994, maF=0.22188
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 212
+NER P_s=0.62264, R_s=0.17623, F_s=0.27471
+NER P_r=0.87736, R_r=0.24433, F_r=0.38221
+NEN P_s=0.50000, R_s=0.14152, F_s=0.22060
+NEN P_r=0.59906, R_r=0.16956, F_r=0.26431
+max_dev_f= 0.24309199556275043 epoch: 44
+epoch: 45
+1037/1037 [==============================] - 2780s 3s/step - loss: 0.1878 - categorical_accuracy: 0.9883
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 198 123
+miP=0.62121, miR=0.17698, miF=0.27548
+maP=0.24414, maR=0.19360, maF=0.21595
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 207
+NER P_s=0.63768, R_s=0.17623, F_s=0.27615
+NER P_r=0.87923, R_r=0.24166, F_r=0.37911
+NEN P_s=0.51208, R_s=0.14152, F_s=0.22176
+NEN P_r=0.59903, R_r=0.16555, F_r=0.25941
+epoch: 46
+1037/1037 [==============================] - 2786s 3s/step - loss: 0.1639 - categorical_accuracy: 0.9911
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 206 127
+miP=0.61650, miR=0.18273, miF=0.28191
+maP=0.25048, maR=0.20248, maF=0.22394
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 215
+NER P_s=0.62791, R_s=0.18024, F_s=0.28008
+NER P_r=0.88372, R_r=0.24833, F_r=0.38771
+NEN P_s=0.49767, R_s=0.14286, F_s=0.22199
+NEN P_r=0.59535, R_r=0.17089, F_r=0.26556
+max_dev_f= 0.244749337861849 epoch: 46
+epoch: 47
+1037/1037 [==============================] - 2782s 3s/step - loss: 0.1453 - categorical_accuracy: 0.9928
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 203 123
+miP=0.60591, miR=0.17698, miF=0.27394
+maP=0.24520, maR=0.19563, maF=0.21763
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 212
+NER P_s=0.62736, R_s=0.17757, F_s=0.27680
+NER P_r=0.88208, R_r=0.24700, F_r=0.38593
+NEN P_s=0.49528, R_s=0.14019, F_s=0.21852
+NEN P_r=0.58491, R_r=0.16555, F_r=0.25806
+epoch: 48
+1037/1037 [==============================] - 2787s 3s/step - loss: 0.1291 - categorical_accuracy: 0.9935
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 204 125
+miP=0.61275, miR=0.17986, miF=0.27809
+maP=0.24773, maR=0.19740, maF=0.21972
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 213
+NER P_s=0.63380, R_s=0.18024, F_s=0.28067
+NER P_r=0.88263, R_r=0.24833, F_r=0.38761
+NEN P_s=0.50235, R_s=0.14286, F_s=0.22245
+NEN P_r=0.59155, R_r=0.16822, F_r=0.26195
+epoch: 49
+1037/1037 [==============================] - 2783s 3s/step - loss: 0.1130 - categorical_accuracy: 0.9951
+............dev evaluation..........
+......document level evaluation:......
+file num: 394
+695 209 126
+miP=0.60287, miR=0.18129, miF=0.27876
+maP=0.24816, maR=0.19804, maF=0.22028
+over!! ['113', '124', 'MP:0020224']
+over!! ['104', '122', 'MP:0001447']
+......mention level evaluation:......
+749 218
+NER P_s=0.61009, R_s=0.17757, F_s=0.27508
+NER P_r=0.87615, R_r=0.24967, F_r=0.38860
+NEN P_s=0.49541, R_s=0.14419, F_s=0.22337
+NEN P_r=0.58257, R_r=0.16956, F_r=0.26267
